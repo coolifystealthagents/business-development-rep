@@ -1,5 +1,7 @@
 import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
+import { october12BlogPosts } from './october12BlogPosts';
+import { october12ResearchPosts } from './october12ResearchPosts';
 
 export const blogPosts: BlogPost[] = [
   {
@@ -468,6 +470,8 @@ export const blogPosts: BlogPost[] = [
     }
   }
 ];
+blogPosts.unshift(...october12BlogPosts);
+
 export const researchPosts: ResearchPost[] = [
   {
     "slug": "market-research-workflow-boundary-review-1",
@@ -910,6 +914,8 @@ export const researchPosts: ResearchPost[] = [
     ]
   }
 ];
+
+researchPosts.unshift(...october12ResearchPosts);
 
 export const nav = [
   { href: '/services', label: 'Services' },

@@ -1,0 +1,197 @@
+{
+  "site": "BusinessDevelopmentRep",
+  "canonicalDomain": "https://businessdevelopmentrep.com",
+  "repository": "coolifystealthagents/business-development-rep",
+  "branch": "main",
+  "baseSha": "8413dfdedb316e2ce9f1399a5cf3ac7e11154d6a",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "systems": {
+    "blog": {
+      "loader": "lib/october12BlogPosts.ts",
+      "route": "app/blog/[slug]/page.tsx",
+      "index": "app/blog/page.tsx"
+    },
+    "research": {
+      "loader": "lib/october12ResearchPosts.ts",
+      "route": "app/research/[slug]/page.tsx",
+      "index": "app/research/page.tsx"
+    }
+  },
+  "registryPaths": [
+    "lib/october12BlogPosts.ts",
+    "lib/october12ResearchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "components/ResearchSidebar.tsx"
+  ],
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "target-account-criteria-version-control",
+      "title": "Version Target Account Criteria Before Research Begins",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/target-account-criteria-version-control.svg",
+      "route": "/blog/target-account-criteria-version-control"
+    },
+    {
+      "section": "Blog",
+      "slug": "market-signal-source-register",
+      "title": "Build a Source Register for Market Signals",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/market-signal-source-register.svg",
+      "route": "/blog/market-signal-source-register"
+    },
+    {
+      "section": "Blog",
+      "slug": "partner-fit-evidence-matrix",
+      "title": "Create a Partner Fit Evidence Matrix",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/partner-fit-evidence-matrix.svg",
+      "route": "/blog/partner-fit-evidence-matrix"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-relationship-map-stewardship",
+      "title": "Maintain Account Relationship Maps With Provenance",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/account-relationship-map-stewardship.svg",
+      "route": "/blog/account-relationship-map-stewardship"
+    },
+    {
+      "section": "Blog",
+      "slug": "opportunity-hypothesis-review-gate",
+      "title": "Use a Review Gate for Opportunity Hypotheses",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/opportunity-hypothesis-review-gate.svg",
+      "route": "/blog/opportunity-hypothesis-review-gate"
+    },
+    {
+      "section": "Blog",
+      "slug": "outreach-claim-approval-register",
+      "title": "Keep an Approval Register for Outreach Claims",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/outreach-claim-approval-register.svg",
+      "route": "/blog/outreach-claim-approval-register"
+    },
+    {
+      "section": "Blog",
+      "slug": "referral-introduction-custody",
+      "title": "Preserve Context Through a Referral Introduction",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/referral-introduction-custody.svg",
+      "route": "/blog/referral-introduction-custody"
+    },
+    {
+      "section": "Blog",
+      "slug": "discovery-meeting-brief-evidence",
+      "title": "Prepare Discovery Meeting Briefs From Verified Evidence",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/discovery-meeting-brief-evidence.svg",
+      "route": "/blog/discovery-meeting-brief-evidence"
+    },
+    {
+      "section": "Blog",
+      "slug": "crm-opportunity-stage-evidence",
+      "title": "Define Evidence for Every Opportunity Stage",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/crm-opportunity-stage-evidence.svg",
+      "route": "/blog/crm-opportunity-stage-evidence"
+    },
+    {
+      "section": "Blog",
+      "slug": "partnership-commitment-follow-up-log",
+      "title": "Track Partnership Commitments to Verified Closure",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/partnership-commitment-follow-up-log.svg",
+      "route": "/blog/partnership-commitment-follow-up-log"
+    },
+    {
+      "section": "Blog",
+      "slug": "competitor-comparison-source-freshness",
+      "title": "Review Competitor Comparison Sources for Freshness",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/competitor-comparison-source-freshness.svg",
+      "route": "/blog/competitor-comparison-source-freshness"
+    },
+    {
+      "section": "Blog",
+      "slug": "business-development-sales-handoff",
+      "title": "Design an Accepted Handoff From Business Development to Sales",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/business-development-sales-handoff.svg",
+      "route": "/blog/business-development-sales-handoff"
+    },
+    {
+      "section": "Research",
+      "slug": "target-account-criteria-consistency-study",
+      "title": "Consistency of Target Account Criteria Application",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/target-account-criteria-consistency-study.svg",
+      "route": "/research/target-account-criteria-consistency-study"
+    },
+    {
+      "section": "Research",
+      "slug": "market-signal-provenance-completeness-study",
+      "title": "Completeness of Provenance for Market Signals",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/market-signal-provenance-completeness-study.svg",
+      "route": "/research/market-signal-provenance-completeness-study"
+    },
+    {
+      "section": "Research",
+      "slug": "partner-fit-reviewer-agreement-study",
+      "title": "Reviewer Agreement in Partner Fit Assessment",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/partner-fit-reviewer-agreement-study.svg",
+      "route": "/research/partner-fit-reviewer-agreement-study"
+    },
+    {
+      "section": "Research",
+      "slug": "relationship-map-freshness-reliability-study",
+      "title": "Freshness and Reliability of Account Relationship Maps",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/relationship-map-freshness-reliability-study.svg",
+      "route": "/research/relationship-map-freshness-reliability-study"
+    },
+    {
+      "section": "Research",
+      "slug": "opportunity-handoff-acceptance-study",
+      "title": "Completeness and Acceptance of Opportunity Handoffs",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/opportunity-handoff-acceptance-study.svg",
+      "route": "/research/opportunity-handoff-acceptance-study"
+    }
+  ]
+}
