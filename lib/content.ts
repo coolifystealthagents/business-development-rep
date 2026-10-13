@@ -2,6 +2,8 @@ import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
 import { october12BlogPosts } from './october12BlogPosts';
 import { october12ResearchPosts } from './october12ResearchPosts';
+import { october13BlogPosts } from './october13BlogPosts';
+import { october13ResearchPosts } from './october13ResearchPosts';
 
 export const blogPosts: BlogPost[] = [
   {
@@ -471,6 +473,7 @@ export const blogPosts: BlogPost[] = [
   }
 ];
 blogPosts.unshift(...october12BlogPosts);
+blogPosts.unshift(...october13BlogPosts);
 
 export const researchPosts: ResearchPost[] = [
   {
@@ -916,6 +919,7 @@ export const researchPosts: ResearchPost[] = [
 ];
 
 researchPosts.unshift(...october12ResearchPosts);
+researchPosts.unshift(...october13ResearchPosts);
 
 export const nav = [
   { href: '/services', label: 'Services' },

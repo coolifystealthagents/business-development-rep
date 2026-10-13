@@ -1,0 +1,197 @@
+{
+  "site": "BusinessDevelopmentRep",
+  "canonicalDomain": "https://businessdevelopmentrep.com",
+  "repository": "coolifystealthagents/business-development-rep",
+  "branch": "main",
+  "baseSha": "443edbd577e00cf192f702442a29a6bb99a054fb",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "systems": {
+    "blog": {
+      "loader": "lib/october13BlogPosts.ts",
+      "route": "app/blog/[slug]/page.tsx",
+      "index": "app/blog/page.tsx"
+    },
+    "research": {
+      "loader": "lib/october13ResearchPosts.ts",
+      "route": "app/research/[slug]/page.tsx",
+      "index": "app/research/page.tsx"
+    }
+  },
+  "registryPaths": [
+    "lib/october13BlogPosts.ts",
+    "lib/october13ResearchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "components/ResearchSidebar.tsx"
+  ],
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "inbound-partnership-request-triage",
+      "title": "Triage Inbound Partnership Requests With Decision Rules",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/inbound-partnership-request-triage.svg",
+      "route": "/blog/inbound-partnership-request-triage"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-trigger-verification-queue",
+      "title": "Run an Account Trigger Verification Queue",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/account-trigger-verification-queue.svg",
+      "route": "/blog/account-trigger-verification-queue"
+    },
+    {
+      "section": "Blog",
+      "slug": "multithreaded-account-contact-plan",
+      "title": "Build a Governed Multithreaded Account Contact Plan",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/multithreaded-account-contact-plan.svg",
+      "route": "/blog/multithreaded-account-contact-plan"
+    },
+    {
+      "section": "Blog",
+      "slug": "conference-lead-custody-workflow",
+      "title": "Preserve Context in a Conference Lead Custody Workflow",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/conference-lead-custody-workflow.svg",
+      "route": "/blog/conference-lead-custody-workflow"
+    },
+    {
+      "section": "Blog",
+      "slug": "channel-conflict-escalation-register",
+      "title": "Create a Channel Conflict Escalation Register",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/channel-conflict-escalation-register.svg",
+      "route": "/blog/channel-conflict-escalation-register"
+    },
+    {
+      "section": "Blog",
+      "slug": "buyer-question-intelligence-loop",
+      "title": "Turn Buyer Questions Into an Evidence-Led Intelligence Loop",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/buyer-question-intelligence-loop.svg",
+      "route": "/blog/buyer-question-intelligence-loop"
+    },
+    {
+      "section": "Blog",
+      "slug": "mutual-action-plan-change-control",
+      "title": "Apply Change Control to Mutual Action Plans",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/mutual-action-plan-change-control.svg",
+      "route": "/blog/mutual-action-plan-change-control"
+    },
+    {
+      "section": "Blog",
+      "slug": "executive-sponsor-briefing-boundary",
+      "title": "Set Boundaries for Executive Sponsor Briefings",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/executive-sponsor-briefing-boundary.svg",
+      "route": "/blog/executive-sponsor-briefing-boundary"
+    },
+    {
+      "section": "Blog",
+      "slug": "partner-referral-attribution-ledger",
+      "title": "Maintain a Partner Referral Attribution Ledger",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/partner-referral-attribution-ledger.svg",
+      "route": "/blog/partner-referral-attribution-ledger"
+    },
+    {
+      "section": "Blog",
+      "slug": "lost-opportunity-evidence-review",
+      "title": "Conduct a Lost Opportunity Evidence Review",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/lost-opportunity-evidence-review.svg",
+      "route": "/blog/lost-opportunity-evidence-review"
+    },
+    {
+      "section": "Blog",
+      "slug": "market-brief-expiration-policy",
+      "title": "Give Every Market Brief an Expiration Policy",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/market-brief-expiration-policy.svg",
+      "route": "/blog/market-brief-expiration-policy"
+    },
+    {
+      "section": "Blog",
+      "slug": "business-development-experiment-register",
+      "title": "Govern Business Development Experiments With a Decision Register",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/business-development-experiment-register.svg",
+      "route": "/blog/business-development-experiment-register"
+    },
+    {
+      "section": "Research",
+      "slug": "account-trigger-confirmation-latency-study",
+      "title": "Confirmation Latency for Account Market Triggers",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/account-trigger-confirmation-latency-study.svg",
+      "route": "/research/account-trigger-confirmation-latency-study"
+    },
+    {
+      "section": "Research",
+      "slug": "partnership-request-routing-reliability-study",
+      "title": "Reliability of Inbound Partnership Request Routing",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/partnership-request-routing-reliability-study.svg",
+      "route": "/research/partnership-request-routing-reliability-study"
+    },
+    {
+      "section": "Research",
+      "slug": "conference-handoff-context-retention-study",
+      "title": "Context Retention in Conference Lead Handoffs",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/conference-handoff-context-retention-study.svg",
+      "route": "/research/conference-handoff-context-retention-study"
+    },
+    {
+      "section": "Research",
+      "slug": "lost-opportunity-reason-evidence-study",
+      "title": "Evidence Coverage in Lost Opportunity Reasons",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/lost-opportunity-reason-evidence-study.svg",
+      "route": "/research/lost-opportunity-reason-evidence-study"
+    },
+    {
+      "section": "Research",
+      "slug": "mutual-action-plan-version-integrity-study",
+      "title": "Version Integrity of Mutual Action Plan Milestones",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/mutual-action-plan-version-integrity-study.svg",
+      "route": "/research/mutual-action-plan-version-integrity-study"
+    }
+  ]
+}
