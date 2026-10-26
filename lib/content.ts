@@ -11,8 +11,7 @@ import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
-  ...october25BlogBatch,
-  ...october26BlogBatch, ...october22BlogBatch,
+  ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch,
   {
     "slug": "business-development-leader-vs-bdr-va",
     "title": "Business development leader vs BDR VA",
@@ -483,8 +482,7 @@ blogPosts.unshift(...october12BlogPosts);
 blogPosts.unshift(...october13BlogPosts);
 
 export const researchPosts: ResearchPost[] = [
-  ...october25ResearchBatch,
-  ...october26ResearchBatch, ...october22ResearchBatch,
+  ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
   {
     "slug": "market-research-workflow-boundary-review-1",
     "title": "Market research support: workflow boundary review",
