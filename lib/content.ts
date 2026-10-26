@@ -478,8 +478,8 @@ export const blogPosts: BlogPost[] = [
     }
   }
 ];
-blogPosts.unshift(...october12BlogPosts);
-blogPosts.unshift(...october13BlogPosts);
+blogPosts.push(...october13BlogPosts);
+blogPosts.push(...october12BlogPosts);
 
 export const researchPosts: ResearchPost[] = [
   ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
@@ -925,8 +925,8 @@ export const researchPosts: ResearchPost[] = [
   }
 ];
 
-researchPosts.unshift(...october12ResearchPosts);
-researchPosts.unshift(...october13ResearchPosts);
+researchPosts.push(...october13ResearchPosts);
+researchPosts.push(...october12ResearchPosts);
 
 export const nav = [
   { href: '/services', label: 'Services' },
