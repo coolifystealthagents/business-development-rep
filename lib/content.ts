@@ -6,11 +6,14 @@ import { october13BlogPosts } from './october13BlogPosts';
 import { october13ResearchPosts } from './october13ResearchPosts';
 import { october22BlogBatch, october22ResearchBatch } from './october22Batch';
 import { october26BlogBatch } from './october26Blog';
+import { october27BlogBatch } from './october27Blog';
 import { october26ResearchBatch } from './october26Research';
+import { october27ResearchBatch } from './october27Research';
 import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
+  ...october27BlogBatch,
   ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch,
   {
     "slug": "business-development-leader-vs-bdr-va",
@@ -482,6 +485,7 @@ blogPosts.push(...october13BlogPosts);
 blogPosts.push(...october12BlogPosts);
 
 export const researchPosts: ResearchPost[] = [
+  ...october27ResearchBatch,
   ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
   {
     "slug": "market-research-workflow-boundary-review-1",
