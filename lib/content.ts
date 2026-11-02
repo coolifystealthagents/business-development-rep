@@ -1,5 +1,7 @@
 import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
+import { november01BlogPosts } from './november01-blog';
+import { november01ResearchPosts } from './november01-research';
 import { october12BlogPosts } from './october12BlogPosts';
 import { october12ResearchPosts } from './october12ResearchPosts';
 import { october13BlogPosts } from './october13BlogPosts';
@@ -15,6 +17,7 @@ import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
+  ...november01BlogPosts,
   ...october28BlogBatch,
   ...october27BlogBatch,
   ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch,
@@ -488,6 +491,7 @@ blogPosts.push(...october13BlogPosts);
 blogPosts.push(...october12BlogPosts);
 
 export const researchPosts: ResearchPost[] = [
+  ...november01ResearchPosts,
   ...october28ResearchBatch,
   ...october27ResearchBatch,
   ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
