@@ -2,141 +2,19 @@
 
 import { useEffect } from 'react';
 
-const CSS = `
-.oct22-sticky-toc{position:static!important;top:auto;right:auto;left:auto;z-index:auto;margin:0 0 1.5rem!important;width:auto;max-width:100%;border:1px solid rgba(248,247,255,.28);border-radius:12px;background:#151222;color:#f8f7ff;box-shadow:none}
-.oct22-sticky-toc>summary{display:flex;align-items:center;gap:.6rem;min-height:44px;padding:.5rem .95rem;font:800 .74rem/1.2 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;list-style:none}
-.oct22-sticky-toc>summary::-webkit-details-marker{display:none}
-.oct22-sticky-toc>summary::after{content:'+';font-size:1rem;line-height:1}
-.oct22-sticky-toc[open]>summary::after{content:'-'}
-.oct22-sticky-toc>summary span{font-weight:600;text-transform:none;letter-spacing:0;opacity:.7}
-.oct22-sticky-toc>nav{position:static;right:auto;top:auto;width:auto;max-height:50vh;overflow:auto;background:transparent;color:inherit;border:0;padding:.35rem .2rem .6rem}
-.oct22-sticky-toc:not([open])>nav{display:none}
-.oct22-sticky-toc ol{margin:0;padding-left:1.1rem}
-.oct22-sticky-toc li{padding:.5rem 0;border-top:1px solid rgba(248,247,255,.16);font:400 .9rem/1.45 Arial,sans-serif}
-.oct22-sticky-toc li:first-child{border-top:0}
-.oct22-sticky-toc a{color:inherit;text-decoration:none}
-.oct22-sticky-toc a:focus-visible{outline:2px solid #1d4e89;outline-offset:2px}
-.oct22-sticky-toc a[data-oct22-active="true"],nav a[data-oct22-active="true"],.sidebar a[data-oct22-active="true"]{font-weight:800!important;text-decoration:underline!important;text-underline-offset:.2em}
-.oct22-desktop-toc{padding:.85rem 1rem;border-left:3px solid currentColor;background:rgba(248,247,255,.07);color:inherit;margin:0 0 1rem}
-.oct22-desktop-toc strong{display:block;margin-bottom:.5rem;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
-.oct22-desktop-toc ol{list-style:none;margin:0;padding:0}
-.oct22-desktop-toc li{margin:.35rem 0}
-aside.sidebar nav.oct22-desktop-toc a{display:block;font-size:.92rem;line-height:1.45;text-decoration:none;padding:.15rem 0}
-@media(min-width:901px){.oct22-sticky-toc{display:none!important}}
-@media(max-width:900px){.oct22-desktop-toc{display:none!important}}
-`;
-
 export default function TocSync() {
   useEffect(() => {
-    const main = document.querySelector('main') || document.body;
-    const article = main.querySelector('article') || main;
-    const headingNodes = Array.from(article.querySelectorAll<HTMLElement>('h2[id], section[id] > h2'));
-    const headings = headingNodes.map((node) => ({ id: node.id || node.closest('section[id]')?.id || '', el: node })).filter((item) => item.id);
+    const headings = Array.from(document.querySelectorAll<HTMLElement>('.prose section[id] > h2, .prose h2[id]')).map((el) => ({ id: el.id || el.parentElement?.id || '', el })).filter((item) => item.id);
     if (!headings.length) return;
-
-    const header = document.querySelector<HTMLElement>('.site-header, .header, body > header');
-    const headerIsSticky = header ? ['sticky', 'fixed'].includes(getComputedStyle(header).position) : false;
-    const top = header && headerIsSticky ? header.offsetHeight + 8 : 8;
-    document.documentElement.style.setProperty('--oct22-top', `${top}px`);
-    headings.forEach((heading) => { heading.el.style.scrollMarginTop = `${top + 90}px`; });
-
-    // Desktop: use a visible ToC or create one in a real article sidebar.
-    const navs = Array.from(document.querySelectorAll<HTMLElement>('nav')).filter((n) => /contents|on this page/i.test(n.getAttribute('aria-label') || ''));
-    let desktopNav = navs.find((n) => n.offsetParent !== null && !n.closest('details')) || null;
-    if (!desktopNav) {
-      const asides = Array.from(document.querySelectorAll<HTMLElement>('aside, .sidebar, .article-sidebar')).filter((a) => a.offsetParent !== null);
-      const aside = asides.find((a) => /article-sidebar|sidebar/.test(a.className)) || asides[0];
-      if (aside) {
-        const nav = document.createElement('nav');
-        nav.className = 'oct22-desktop-toc';
-        nav.setAttribute('aria-label', 'Table of contents');
-        nav.innerHTML = '<strong>Table of contents</strong><ol></ol>';
-        const list = nav.querySelector('ol')!;
-        headings.forEach((heading) => {
-          const item = document.createElement('li');
-          const link = document.createElement('a');
-          link.href = `#${heading.id}`;
-          link.textContent = (heading.el.textContent || '').trim();
-          item.appendChild(link);
-          list.appendChild(item);
-        });
-        aside.insertBefore(nav, aside.firstChild);
-        desktopNav = nav;
-      }
-    }
-    if (!desktopNav) {
-      const nav = document.createElement('nav');
-      nav.className = 'oct22-desktop-toc';
-      nav.setAttribute('aria-label', 'Table of contents');
-      nav.innerHTML = '<strong>Table of contents</strong><ol></ol>';
-      const list = nav.querySelector('ol')!;
-      headings.forEach((heading) => { const item = document.createElement('li'); const link = document.createElement('a'); link.href = `#${heading.id}`; link.textContent = (heading.el.textContent || '').trim(); item.appendChild(link); list.appendChild(item); });
-      document.body.appendChild(nav);
-      nav.style.position = 'fixed'; nav.style.right = '16px'; nav.style.top = `${top + 8}px`; nav.style.width = '250px'; nav.style.maxHeight = `calc(100vh - ${top + 28}px)`; nav.style.overflow = 'auto'; nav.style.zIndex = '44'; nav.style.background = '#fff'; nav.style.border = '1px solid #999'; nav.style.padding = '.6rem .8rem'; nav.style.boxShadow = '0 8px 20px rgba(0,0,0,.12)';
-      desktopNav = nav;
-    }
-    if (desktopNav) {
-      desktopNav.classList.add('oct22-desktop-toc');
-      desktopNav.style.position = 'sticky';
-      desktopNav.style.top = `${top + 8}px`;
-      desktopNav.style.maxHeight = `calc(100dvh - ${top + 32}px)`;
-      desktopNav.style.overflowY = 'auto';
-      desktopNav.style.overflowX = 'hidden';
-      desktopNav.style.alignSelf = 'start';
-      const parent = desktopNav.parentElement;
-      if (parent) {
-        parent.style.alignSelf = 'start';
-        parent.style.height = 'auto';
-        parent.style.position = 'sticky';
-        parent.style.top = `${top + 8}px`;
-        parent.style.maxHeight = `calc(100dvh - ${top + 32}px)`;
-        parent.style.overflowY = 'auto';
-      }
-    }
-
-    // Mobile: one compact control above the article title.
-    const existingDetails = Array.from(document.querySelectorAll<HTMLDetailsElement>('details')).find((item) => {
-      if (item.closest('aside')) return false;
-      if (item.dataset.oct22Copy === 'true') return false;
-      const label = (item.querySelector('summary')?.textContent || '').toLowerCase();
-      return label.includes('contents') || label.includes('on this page') || label.includes('explore') || label.includes('in this guide') || label.includes('in this article');
-    });
-    if (existingDetails) { existingDetails.hidden = true; existingDetails.setAttribute('aria-hidden', 'true'); }
-    let details = article.querySelector<HTMLDetailsElement>('details[data-oct22-copy="true"]');
-    if (!details) {
-      details = document.createElement('details');
-      details.dataset.oct22Copy = 'true';
-      details.className = 'oct22-sticky-toc';
-      details.innerHTML = `<summary>Contents <span>${headings.length} sections</span></summary><nav aria-label="Table of contents mobile"><ol></ol></nav>`;
-      const prose = article.querySelector('.prose') || article;
-      prose.insertBefore(details, prose.firstChild);
-    }
-    details.hidden = false;
-    details.removeAttribute('aria-hidden');
-    details.classList.add('oct22-sticky-toc');
-    let list = details.querySelector('ol');
-    if (!list) { list = document.createElement('ol'); (details.querySelector('nav') || details).appendChild(list); }
-    if (!list) return;
-    if (!list.querySelector('a')) {
-      headings.forEach((heading) => {
-        const item = document.createElement('li');
-        const link = document.createElement('a');
-        link.href = `#${heading.id}`;
-        link.textContent = (heading.el.textContent || '').trim();
-        item.appendChild(link);
-        list.appendChild(item);
-      });
-    }
-
     let frame = 0;
     const update = () => {
       frame = 0;
-      const offset = 150;
+      const offset = 112;
       let current = headings[0].id;
       for (const heading of headings) { if (heading.el.getBoundingClientRect().top - offset <= 0) current = heading.id; else break; }
-      document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {
-        if (link.getAttribute('href') === `#${current}`) { link.setAttribute('aria-current', 'location'); link.setAttribute('data-oct22-active', 'true'); }
-        else { link.removeAttribute('aria-current'); link.removeAttribute('data-oct22-active'); }
+      document.querySelectorAll<HTMLAnchorElement>('.desktop-toc a, .mobile-toc a').forEach((link) => {
+        if (link.getAttribute('href') === `#${current}`) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
       });
     };
     const onScroll = () => { if (frame) return; frame = window.requestAnimationFrame(update); };
@@ -150,5 +28,5 @@ export default function TocSync() {
     };
   }, []);
 
-  return <style dangerouslySetInnerHTML={{ __html: CSS }} />;
+  return null;
 }
