@@ -3,24 +3,25 @@
 import { useEffect } from 'react';
 
 const CSS = `
-.oct22-sticky-toc{position:fixed!important;top:var(--oct22-top,84px);right:12px;left:auto;z-index:45;margin:0!important;width:fit-content;max-width:calc(100% - 1rem);border:1px solid currentColor;border-radius:999px;background:#fff;color:#17202a;box-shadow:0 8px 20px rgba(0,0,0,.14)}
+.oct22-sticky-toc{position:static!important;top:auto;right:auto;left:auto;z-index:auto;margin:0 0 1.5rem!important;width:auto;max-width:100%;border:1px solid rgba(248,247,255,.28);border-radius:12px;background:#151222;color:#f8f7ff;box-shadow:none}
 .oct22-sticky-toc>summary{display:flex;align-items:center;gap:.6rem;min-height:44px;padding:.5rem .95rem;font:800 .74rem/1.2 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;list-style:none}
 .oct22-sticky-toc>summary::-webkit-details-marker{display:none}
 .oct22-sticky-toc>summary::after{content:'+';font-size:1rem;line-height:1}
 .oct22-sticky-toc[open]>summary::after{content:'-'}
 .oct22-sticky-toc>summary span{font-weight:600;text-transform:none;letter-spacing:0;opacity:.7}
-.oct22-sticky-toc>nav{position:absolute;right:0;top:calc(100% + 6px);width:min(84vw,320px);max-height:min(60vh,420px);overflow:auto;background:#fff;color:#17202a;border:1px solid #17202a;padding:.35rem .9rem .8rem;box-shadow:0 18px 34px rgba(0,0,0,.2)}
+.oct22-sticky-toc>nav{position:static;right:auto;top:auto;width:auto;max-height:50vh;overflow:auto;background:transparent;color:inherit;border:0;padding:.35rem .2rem .6rem}
+.oct22-sticky-toc:not([open])>nav{display:none}
 .oct22-sticky-toc ol{margin:0;padding-left:1.1rem}
-.oct22-sticky-toc li{padding:.55rem 0;border-top:1px solid rgba(0,0,0,.12);font:400 .86rem/1.35 Arial,sans-serif}
+.oct22-sticky-toc li{padding:.5rem 0;border-top:1px solid rgba(248,247,255,.16);font:400 .9rem/1.45 Arial,sans-serif}
 .oct22-sticky-toc li:first-child{border-top:0}
 .oct22-sticky-toc a{color:inherit;text-decoration:none}
 .oct22-sticky-toc a:focus-visible{outline:2px solid #1d4e89;outline-offset:2px}
 .oct22-sticky-toc a[data-oct22-active="true"],nav a[data-oct22-active="true"],.sidebar a[data-oct22-active="true"]{font-weight:800!important;text-decoration:underline!important;text-underline-offset:.2em}
-.oct22-desktop-toc{padding:.85rem 1rem;border-left:3px solid currentColor;background:rgba(127,127,127,.06);margin:0 0 1rem}
+.oct22-desktop-toc{padding:.85rem 1rem;border-left:3px solid currentColor;background:rgba(248,247,255,.07);color:inherit;margin:0 0 1rem}
 .oct22-desktop-toc strong{display:block;margin-bottom:.5rem;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
 .oct22-desktop-toc ol{list-style:none;margin:0;padding:0}
 .oct22-desktop-toc li{margin:.35rem 0}
-.oct22-desktop-toc a{font-size:.82rem;line-height:1.35;text-decoration:none}
+aside.sidebar nav.oct22-desktop-toc a{display:block;font-size:.92rem;line-height:1.45;text-decoration:none;padding:.15rem 0}
 @media(min-width:901px){.oct22-sticky-toc{display:none!important}}
 @media(max-width:900px){.oct22-desktop-toc{display:none!important}}
 `;
@@ -78,16 +79,25 @@ export default function TocSync() {
       desktopNav.classList.add('oct22-desktop-toc');
       desktopNav.style.position = 'sticky';
       desktopNav.style.top = `${top + 8}px`;
-      desktopNav.style.maxHeight = `calc(100vh - ${top + 28}px)`;
-      desktopNav.style.overflow = 'auto';
+      desktopNav.style.maxHeight = `calc(100dvh - ${top + 32}px)`;
+      desktopNav.style.overflowY = 'auto';
+      desktopNav.style.overflowX = 'hidden';
       desktopNav.style.alignSelf = 'start';
       const parent = desktopNav.parentElement;
-      if (parent) { parent.style.alignSelf = 'stretch'; parent.style.height = 'auto'; }
+      if (parent) {
+        parent.style.alignSelf = 'start';
+        parent.style.height = 'auto';
+        parent.style.position = 'sticky';
+        parent.style.top = `${top + 8}px`;
+        parent.style.maxHeight = `calc(100dvh - ${top + 32}px)`;
+        parent.style.overflowY = 'auto';
+      }
     }
 
     // Mobile: one compact control above the article title.
     const existingDetails = Array.from(document.querySelectorAll<HTMLDetailsElement>('details')).find((item) => {
       if (item.closest('aside')) return false;
+      if (item.dataset.oct22Copy === 'true') return false;
       const label = (item.querySelector('summary')?.textContent || '').toLowerCase();
       return label.includes('contents') || label.includes('on this page') || label.includes('explore') || label.includes('in this guide') || label.includes('in this article');
     });
@@ -98,9 +108,11 @@ export default function TocSync() {
       details.dataset.oct22Copy = 'true';
       details.className = 'oct22-sticky-toc';
       details.innerHTML = `<summary>Contents <span>${headings.length} sections</span></summary><nav aria-label="Table of contents mobile"><ol></ol></nav>`;
-      document.body.appendChild(details);
-      requestAnimationFrame(() => { const h1 = document.querySelector<HTMLElement>('main h1') || document.querySelector<HTMLElement>('h1'); if (h1 && h1.getBoundingClientRect().top < top + 60) details!.style.top = '4px'; });
+      const prose = article.querySelector('.prose') || article;
+      prose.insertBefore(details, prose.firstChild);
     }
+    details.hidden = false;
+    details.removeAttribute('aria-hidden');
     details.classList.add('oct22-sticky-toc');
     let list = details.querySelector('ol');
     if (!list) { list = document.createElement('ol'); (details.querySelector('nav') || details).appendChild(list); }
