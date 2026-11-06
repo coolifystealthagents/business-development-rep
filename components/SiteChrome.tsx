@@ -2,13 +2,31 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { site } from '@/lib/site';
 import { nav } from '@/lib/content';
 import { LeadForm } from './LeadForm';
 import { ArrowIcon } from './Icons';
 
 export function Header() {
-  return <header className="site-header"><Link className="brand" href="/"><Image src="/logo.svg" alt="" width={42} height={42} /><span>{site.name}</span></Link><nav aria-label="Primary navigation">{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav><Link id="cta-global-header-bookcall" className="button compact" href="/contact-us">Book a free call <ArrowIcon /></Link></header>;
+  const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  useEffect(() => setOpen(false), [pathname]);
+  useEffect(() => {
+    document.body.classList.toggle('menu-open', open);
+    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === 'Escape') setOpen(false); };
+    window.addEventListener('keydown', closeOnEscape);
+    return () => { document.body.classList.remove('menu-open'); window.removeEventListener('keydown', closeOnEscape); };
+  }, [open]);
+  return <>
+    <a className="skip-link" href="#main-content">Skip to content</a>
+    <header className="site-header">
+      <Link className="brand" href="/" aria-label={`${site.name} home`}><Image src="/logo.svg" alt="" width={36} height={36} /><span>{site.name}</span></Link>
+      <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen((value) => !value)}><span>{open ? 'Close' : 'Menu'}</span><i aria-hidden="true" /></button>
+      <nav id="primary-navigation" aria-label="Primary navigation" data-open={open}>{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link className="mobile-nav-cta" href="/contact-us">Book a free call <ArrowIcon /></Link></nav>
+      <Link id="cta-global-header-bookcall" className="button compact header-cta" href="/contact-us">Book a free call <ArrowIcon /></Link>
+    </header>
+  </>;
 }
 export function Footer() {
   return <footer><div><Link className="brand inverse" href="/"><Image src="/logo.svg" alt="" width={44} height={44} /><span>{site.name}</span></Link><p>Specialist remote staff for {site.audience}.</p></div><div className="footer-links">{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div><p className="copyright">© {new Date().getFullYear()} {site.name}</p></footer>;
