@@ -8,6 +8,8 @@ import { nav } from '@/lib/content';
 import { LeadForm } from './LeadForm';
 import { ArrowIcon } from './Icons';
 
+const headerNav = nav.filter((item) => item.href !== '/blog' && item.href !== '/research');
+
 export function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -23,7 +25,7 @@ export function Header() {
     <header className="site-header">
       <Link className="brand" href="/" aria-label={`${site.name} home`}><Image src="/logo.svg" alt="" width={36} height={36} /><span>{site.name}</span></Link>
       <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen((value) => !value)}><span>{open ? 'Close' : 'Menu'}</span><i aria-hidden="true" /></button>
-      <nav id="primary-navigation" aria-label="Primary navigation" data-open={open}>{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link className="mobile-nav-cta" href="/contact-us">Book a free call <ArrowIcon /></Link></nav>
+      <nav id="primary-navigation" aria-label="Primary navigation" data-open={open}>{headerNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link className="mobile-nav-cta" href="/contact-us">Book a free call <ArrowIcon /></Link></nav>
       <Link id="cta-global-header-bookcall" className="button compact header-cta" href="/contact-us">Book a free call <ArrowIcon /></Link>
     </header>
   </>;
