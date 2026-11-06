@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 
 const CSS = `
-.oct22-sticky-toc{position:static!important;top:auto;right:auto;left:auto;z-index:auto;margin:0 0 1.5rem!important;width:auto;max-width:100%;border:1px solid rgba(248,247,255,.28);border-radius:12px;background:#151222;color:#f8f7ff;box-shadow:none}
+.oct22-sticky-toc{position:sticky!important;top:.5rem;right:auto;left:auto;z-index:30;margin:0 0 1.5rem!important;width:auto;max-width:100%;border:1px solid rgba(248,247,255,.28);border-radius:12px;background:#151222;color:#f8f7ff;box-shadow:0 10px 28px rgba(0,0,0,.35)}
 .oct22-sticky-toc>summary{display:flex;align-items:center;gap:.6rem;min-height:44px;padding:.5rem .95rem;font:800 .74rem/1.2 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;list-style:none}
 .oct22-sticky-toc>summary::-webkit-details-marker{display:none}
 .oct22-sticky-toc>summary::after{content:'+';font-size:1rem;line-height:1}
@@ -127,6 +127,9 @@ export default function TocSync() {
         list.appendChild(item);
       });
     }
+    details.querySelectorAll<HTMLAnchorElement>('a').forEach((link) => {
+      link.addEventListener('click', () => { details!.open = false; });
+    });
 
     let frame = 0;
     const update = () => {
@@ -139,7 +142,7 @@ export default function TocSync() {
         else { link.removeAttribute('aria-current'); link.removeAttribute('data-oct22-active'); }
       });
     };
-    const onScroll = () => { if (frame) return; frame = window.requestAnimationFrame(update); };
+    const onScroll = () => { if (frame) return; frame = window.requestAnimationFrame(update); if (details!.open && window.scrollY > 160) details!.open = false; };
     update();
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);

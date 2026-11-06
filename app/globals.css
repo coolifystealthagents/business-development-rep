@@ -29,7 +29,11 @@
 .article-thumbnail{display:block;width:min(100%,1200px);height:auto;margin-top:2.5rem;border-radius:22px;border:1px solid color-mix(in srgb,var(--ink) 14%,transparent)}.sidebar nav{display:grid;gap:.45rem;margin:1rem 0 1.5rem}.sidebar nav a{text-decoration:underline;font-size:.84rem}
 
 @media(min-width:901px){.article-layout .sidebar{top:calc(var(--header-h, 80px) + 16px)}}
-/* radar theme surfaces keyed off html[data-design] (the class-based block above never matched) */
+/* article ToC rail: bound the list, keep it scrollable, offset heading anchors */
+.article-layout>.sidebar{max-height:calc(100dvh - 104px);overflow-y:auto;overscroll-behavior:contain}
+.article-layout .sidebar nav.toc{max-height:calc(100dvh - 140px);overflow-y:auto;overscroll-behavior:contain}
+.prose h2,.prose h3,.prose section[id]{scroll-margin-top:calc(var(--header-h, 88px) + 20px)}
+@media(min-width:901px){.article-layout>.sidebar{position:sticky}}
 html[data-design="radar"] .sidebar{background:#151222;color:#f8f7ff;border:1px solid rgba(248,247,255,.16)}
 html[data-design="radar"] .sidebar a{color:#f8f7ff}
 html[data-design="radar"] .sidebar .button{background:var(--accent);border-color:var(--accent);color:#0e0d17}
