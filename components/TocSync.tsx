@@ -20,7 +20,6 @@ export default function TocSync() {
     const onScroll = () => {
       if (frame) return;
       frame = window.requestAnimationFrame(update);
-      if (window.scrollY > 160) document.querySelectorAll<HTMLDetailsElement>('.mobile-toc[open]').forEach((item) => { item.open = false; });
     };
     update();
     window.addEventListener('scroll', onScroll, { passive: true });
