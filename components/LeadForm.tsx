@@ -36,7 +36,7 @@ export function LeadForm({ source = 'contact-page' }: { source?: string }) {
       }
       const payload = Object.fromEntries(data.entries());
       delete payload.website_url;
-      window.acrTracker?.trackLead({ ...payload, source });
+      /* ACR captures the native submit event once. */
       router.push('/thank-you');
     } catch {
       setError('We could not send your request. Please try again.');
