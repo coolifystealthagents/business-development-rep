@@ -1,0 +1,181 @@
+{
+  "heading": "Make the opportunity easier to act on.",
+  "intro": "A promising account can arrive as a conference note, a referral, a research result, or an incomplete CRM record. The work between that first signal and a useful sales conversation is often where momentum disappears. Build a support role around that work: establish the facts, organize the context, and put the next action in front of the right person.",
+  "chapters": [
+    [
+      "Research with a reason",
+      "Give research a specific commercial question. Your assistant can collect information about approved markets, organizations, and partner categories, then separate verified facts from assumptions. Instead of a long list of names, your team receives a brief explaining why an organization may deserve attention, what the sources actually support, and what still needs to be checked. You decide which opportunities fit your strategy.",
+      "market-research"
+    ],
+    [
+      "A connected account picture",
+      "Sales context rarely lives in one place. Bring together approved CRM notes, known contacts, public organization information, and previous conversations. A support role can maintain the map and mark relationships that remain uncertain. That makes a handoff easier to understand without inventing buying authority or treating every contact as a decision-maker.",
+      "account-mapping"
+    ],
+    [
+      "Follow-through your team can see",
+      "Once a conversation begins, keep the supporting record current. Prepare meeting context, track approved next steps, reconcile activity notes, and flag opportunities that lack an owner or a useful update. The purpose is to give sellers a dependable working queue while they retain the relationship, qualification judgment, and commercial decisions.",
+      "crm-opportunity-support"
+    ]
+  ],
+  "bundles": [
+    [
+      "Opening a new segment",
+      "Combine market research, account mapping, and lead qualification support. Define the target criteria before collecting records, use a small sample to calibrate the brief, and retain a separate queue for incomplete evidence. Your sales lead approves the list before outreach begins.",
+      [
+        0,
+        1,
+        6
+      ]
+    ],
+    [
+      "Preparing for more conversations",
+      "Connect outreach operations with meeting coordination and CRM support. Agree on message approval, opt-out handling, calendar ownership, and the record that must accompany a meeting. The handoff should include the reason for the conversation and any unanswered questions.",
+      [
+        3,
+        5,
+        4
+      ]
+    ],
+    [
+      "Making pipeline reviews useful",
+      "Bring together CRM opportunity support and pipeline reporting. Start with your existing stage definitions and reporting cutoff. Separate stale activity from missing data, and put correction requests in front of the owner before the review pack is finalized.",
+      [
+        4,
+        7
+      ]
+    ]
+  ],
+  "ownership": [
+    "Your team chooses the market, the qualification criteria, and the accounts to pursue.",
+    "Your assistant researches, prepares, coordinates, and maintains the records you authorize.",
+    "Sales owners approve messages, pricing, commitments, and changes to opportunity stages."
+  ],
+  "review": [
+    "Inspect a sample brief for relevant sources, clear uncertainty, and a specific next action.",
+    "Review duplicate records, unanswered questions, and time-sensitive follow-ups together.",
+    "Expand the queue only after the format, review owner, and exception route are working."
+  ],
+  "services": {
+    "market-research": {
+      "trigger": "When a target market needs a clearer working brief",
+      "example": "Imagine your sales lead wants to explore a new business segment but has only a broad list of companies. The assistant works from your inclusion criteria, collects relevant public or authorized sources, and records the date and reason each organization was included. Conflicting information stays visible. The handoff separates supported findings, excluded records, and questions for the sales lead, so the team can refine its focus before deciding whether to contact anyone.",
+      "fields": [
+        "Segment and inclusion criteria",
+        "Organization, source link, and retrieval date",
+        "Evidence of relevance and remaining uncertainty",
+        "Suggested question for the sales reviewer"
+      ],
+      "exception": "A company appearing in a directory is not proof that it matches your market. Old figures, ambiguous product descriptions, and secondhand claims should be labeled and queued for review. Research supports a decision; it does not turn an assumption into a qualified opportunity.",
+      "question": "Can the research brief change as we learn?",
+      "answer": "Yes. Keep a versioned set of inclusion criteria and review an initial sample together. When your priorities change, update the brief and identify which earlier records need to be checked again. This keeps the working list consistent rather than mixing several definitions of a good prospect.",
+      "pilot": "Begin with one narrowly defined segment and a small research sample. Agree on the geographic scope, organization type, relevant offering, and acceptable sources. The first review should test whether the brief helps your sellers decide what to investigate next. Expand the research only when your team can explain why a record belongs in the list and which uncertainty would change that decision.",
+      "review": "Review the evidence behind inclusion, the freshness of the sources, and the distinction between a fact and a hypothesis. A useful market brief also records exclusions, so another researcher does not repeatedly revisit the same unsuitable organizations."
+    },
+    "account-mapping": {
+      "trigger": "When account knowledge is scattered across people and systems",
+      "example": "Consider an account with several known contacts, a past meeting, and an introduction from a partner. The assistant brings authorized notes into one account map, connects contacts to documented roles, and records the source of each relationship. A suspected reporting line remains a question until confirmed. Before a seller reaches out, the map shows existing context, the latest interaction, and the missing information that could change the approach.",
+      "fields": [
+        "Organization and relevant business units",
+        "Contact role with a source reference",
+        "Known relationship and last confirmed interaction",
+        "Unconfirmed connections and next owner"
+      ],
+      "exception": "Job titles do not establish purchasing authority. The map should distinguish a confirmed relationship from a possible connection and avoid implying that a contact can approve a purchase. Sensitive internal information stays within the access and sharing rules your organization sets.",
+      "question": "How do we keep account maps current?",
+      "answer": "Define the events that trigger a review, such as a new meeting, a role change, or a fresh referral. The assistant can update the record and preserve the previous context. Your account owner confirms important relationship changes before they influence the sales approach.",
+      "pilot": "Choose a small group of active target accounts and use the contacts and relationship notes already authorized for the role. Agree on which fields belong in the map and how unconfirmed information is labeled. Review one completed account together before scaling the work. This establishes a consistent level of detail and avoids collecting personal information that does not serve the approved business purpose.",
+      "review": "Check whether the account owner can trace a relationship back to its source and understand what changed since the last review. The map should answer who is known, what is documented, and which question needs a direct conversation."
+    },
+    "partnership-research": {
+      "trigger": "When a potential partnership needs context before an introduction",
+      "example": "Your team is considering organizations that serve a similar audience. The assistant researches the approved categories, records publicly described services, and prepares a comparison of possible fit and overlap. The brief links each observation to a source and lists questions about delivery, audience, and existing relationships. Your partnership lead can then decide which conversations merit attention and what must be verified directly with the organization.",
+      "fields": [
+        "Partner category and stated audience",
+        "Relevant offering and evidence of fit",
+        "Potential overlap or unanswered question",
+        "Internal relationship owner and review status"
+      ],
+      "exception": "Shared language on two websites does not establish a partnership opportunity. Keep hypotheses separate from confirmed capabilities, and do not describe an organization as a partner before the relationship exists. Commercial arrangements, exclusivity, and representations require your authorized team.",
+      "question": "Can this support an existing partner directory?",
+      "answer": "Yes. A defined review can check public information, named internal owners, and outstanding questions. Changes to partnership status should come from your relationship owner; the assistant maintains the supporting evidence and routes inconsistencies for confirmation.",
+      "pilot": "Start with one partner category and a clear reason for exploring it, such as complementary services or a shared customer context. Set the evidence you want collected and identify organizations that should be excluded. A focused comparison is more useful than a broad directory because your partnership lead can inspect the same questions across each candidate and refine the brief after the first review.",
+      "review": "Look for evidence of fit, potential overlap, and questions that need confirmation from the organization. The research should help prepare an informed conversation without suggesting that a commercial relationship or endorsement already exists."
+    },
+    "outreach-operations": {
+      "trigger": "When approved outreach needs a dependable operating queue",
+      "example": "A sales team has approved a campaign and a set of messages. The assistant prepares the authorized recipient queue, checks for duplicates and exclusions, and records the current approved message version. Replies are categorized using your instructions, while requests that need sales judgment are routed with the original context. The handoff shows which records are ready, which are paused, and which require an owner before another action is taken.",
+      "fields": [
+        "Approved recipient and campaign reference",
+        "Message version and permitted next step",
+        "Response, exclusion, or pause reason",
+        "Sales owner and follow-up date"
+      ],
+      "exception": "A sensitive reply, opt-out, incorrect contact, or unclear permission should interrupt the routine sequence. Follow your suppression and escalation process rather than treating every response as another task. Your team approves messaging, targeting, and any claims made to prospective customers.",
+      "question": "Does support write or approve sales promises?",
+      "answer": "Your team approves the positioning, offers, claims, and communication rules. The role can prepare drafts or organize approved messages within that brief, but a new promise, pricing statement, or unusual response goes back to the authorized sales owner.",
+      "pilot": "Use one approved campaign with a clearly defined queue, message set, and owner. Document the checks that must happen before an action, the situations that pause the sequence, and where replies are recorded. Review a sample of prepared records before execution. This makes it easier to identify a process issue early and keep response handling consistent with your team’s communication standards.",
+      "review": "Inspect exclusions, duplicate handling, approved message versions, and the completeness of reply notes. A useful queue shows why a record is ready, paused, or awaiting a salesperson, rather than merely counting how many actions were completed."
+    },
+    "crm-opportunity-support": {
+      "trigger": "When the CRM no longer matches the working conversation",
+      "example": "After a busy week, an opportunity has two duplicate notes, no next-action date, and a stage that does not match the meeting summary. The assistant reconciles the authorized sources, prepares the permitted field corrections, and flags the stage question for the seller. A change log explains what was updated and why. The opportunity owner receives a short exception queue instead of having to reconstruct every administrative inconsistency during the pipeline review.",
+      "fields": [
+        "Opportunity identifier and accountable owner",
+        "Source-backed field update",
+        "Current next action and due date",
+        "Unresolved conflict and change history"
+      ],
+      "exception": "Never infer a commercial milestone from incomplete notes. A stage change, forecast adjustment, or closed status needs the evidence and approval your process requires. Duplicate records should follow your merge rules so important activity history is not silently lost.",
+      "question": "Can the assistant work in our existing CRM?",
+      "answer": "The scope can be designed around your current system and approved access. Start with the fields, record types, and actions the role may change. Document which updates require review, and use a sample queue to confirm the process before expanding permissions or volume.",
+      "pilot": "Begin with one record type or a recurring cleanup queue, such as opportunities missing a next-action date. Define which fields can be updated from documented evidence and which need owner approval. Use your existing CRM views and change history where practical. The first assignment should demonstrate that routine corrections are traceable and that uncertain commercial information stays in a visible review queue.",
+      "review": "Check the original source for a sample of changes and confirm that no activity history was lost. Review the unresolved queue with the opportunity owners so administrative completeness is not mistaken for confirmation of commercial progress."
+    },
+    "meeting-coordination": {
+      "trigger": "When a booked meeting still needs a useful handoff",
+      "example": "A prospect agrees to speak with your team, but the calendar invite does not explain the purpose of the call. The assistant confirms the approved scheduling details, checks the time zone, and prepares a short brief from the original conversation. The seller sees who is attending, why the meeting was requested, and which questions are still open. Afterward, authorized next actions are recorded without turning tentative discussion into a customer commitment.",
+      "fields": [
+        "Confirmed participants and time zone",
+        "Meeting purpose and source conversation",
+        "Approved agenda or preparation material",
+        "Owner of the post-meeting next action"
+      ],
+      "exception": "A calendar acceptance does not guarantee that every participant has the correct context. Conflicting times, unclear attendees, access issues, or changes to the meeting purpose should be confirmed. The assistant should not promise scope, pricing, or delivery dates while arranging logistics.",
+      "question": "What happens when a meeting changes?",
+      "answer": "Use the agreed calendar owner and communication route to update the invitation, record the reason, and notify affected participants. Keep the latest status visible in the CRM or scheduling system so an old reminder does not create a conflicting instruction.",
+      "pilot": "Start with a defined meeting type and a small set of calendars. Agree on the scheduling window, required participants, time-zone convention, reminder process, and minimum briefing information. Walk through a reschedule and a cancellation before expanding the queue. These exceptions reveal whether the calendar, CRM, and participant communication remain aligned when the original plan changes.",
+      "review": "Review the accuracy of the invitation and the usefulness of the seller’s brief. Confirm that the record identifies the original conversation, the meeting purpose, and the person responsible for follow-through after the call."
+    },
+    "lead-qualification-support": {
+      "trigger": "When incomplete leads are being confused with unsuitable leads",
+      "example": "An inbound inquiry includes a company name and a broad request but omits the role and timing your team normally checks. The assistant records the available facts against the approved checklist and marks the missing items explicitly. If authorized, a routine follow-up can gather the absent information. The sales owner receives the original request, completed checks, and unanswered questions, allowing them to decide whether the opportunity should progress.",
+      "fields": [
+        "Original inquiry and source reference",
+        "Evidence against each approved criterion",
+        "Missing information versus confirmed mismatch",
+        "Sales reviewer and next action"
+      ],
+      "exception": "A blank field is not a negative answer. Keep incomplete, conflicting, and confirmed information in separate states. Do not infer budget, buying authority, intent, or eligibility from a name, location, or job title; the sales team defines and reviews its qualification process.",
+      "question": "Who decides whether a lead is qualified?",
+      "answer": "Your sales team owns the criteria and the final decision. Administrative support checks the evidence, organizes the record, and routes exceptions. If a rule is ambiguous or the information conflicts, the record stays in review rather than receiving a guessed outcome.",
+      "pilot": "Choose a single inquiry source and write down the checks your sales team already applies. Define the evidence required for each field and the difference between incomplete, confirmed, and conflicting information. Review a mixed sample of records with your sales owner. The goal is consistent preparation of the decision, including cases that do not fit neatly into a checklist.",
+      "review": "Compare the qualification record with the original inquiry and check that every status has supporting evidence. Pay particular attention to missing information and borderline cases, where an administrative assumption could send a useful inquiry down the wrong path."
+    },
+    "pipeline-reporting-support": {
+      "trigger": "When a pipeline meeting starts with data repair",
+      "example": "Before the reporting cutoff, the assistant checks the approved fields across the relevant opportunity set. Missing owners, overdue next actions, and inconsistent stage notes are listed separately for correction. The report identifies its reporting period and source time, then packages the agreed views with unresolved exceptions. Your sales operations owner can review the underlying record before leadership uses the summary to discuss priorities or forecasts.",
+      "fields": [
+        "Reporting period and extraction time",
+        "Approved activity and opportunity views",
+        "Missing-data and stale-record exceptions",
+        "Correction owner and unresolved questions"
+      ],
+      "exception": "An unchanged record may mean inactivity, an unrecorded conversation, or a source problem. The report should not treat these as equivalent. Forecast assumptions, stage interpretation, and material commercial decisions remain with your sales leadership and should be labeled separately from administrative checks.",
+      "question": "Can we use the reports we already have?",
+      "answer": "Yes. Start with the existing definitions, filters, and review cadence. The role can prepare and reconcile the inputs, record inconsistencies, and package the agreed output. Any change to a metric or reporting rule should be approved before it changes the comparison.",
+      "pilot": "Begin with one recurring review pack and preserve the existing filters, definitions, and cutoff time. Identify the CRM fields that need reconciliation and the people who can correct them. Prepare a sample report with its exception log before establishing the routine. A repeatable process should make changes between review periods explainable, including changes caused by corrections rather than new sales activity.",
+      "review": "Trace a sample of totals and exceptions back to the source set. Confirm that the report distinguishes current information, late updates, and unresolved gaps. Leadership should be able to identify the questions that need a seller’s judgment before using the pack."
+    }
+  }
+}
