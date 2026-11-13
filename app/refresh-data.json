@@ -506,6 +506,70 @@
   ],
   "blog": [
     {
+      "slug": "build-a-trade-show-follow-up-cadence-that-survives-the-return-trip-for-the-next-review-cycle",
+      "title": "Build a trade-show follow-up cadence that survives the return trip for the next review cycle",
+      "description": "A practical cadence for capturing trade-show context, sorting contacts by intent, and completing the follow-up before the details go cold Revisit the rule with one current example before the next review cycle.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "write-a-call-opening-that-earns-the-next-thirty-seconds-for-the-next-review-cycle",
+      "title": "Write a call opening that earns the next thirty seconds for the next review cycle",
+      "description": "A call-opening structure built on a specific reason, one clear question, and a respectful exit instead of a scripted compliment Revisit the rule with one current example before the next review cycle.",
+      "category": "Outreach operations",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "design-a-weekly-territory-coverage-check-for-a-small-bdr-pod-for-the-next-review-cycle",
+      "title": "Design a weekly territory coverage check for a small BDR pod for the next review cycle",
+      "description": "A thirty-minute coverage review that counts touches by account tier, surfaces quiet accounts, and assigns one owned action per gap Revisit the rule with one current example before the next review cycle.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "turn-a-sales-podcast-into-a-short-sourced-account-brief-for-the-next-review-cycle",
+      "title": "Turn a sales podcast into a short, sourced account brief for the next review cycle",
+      "description": "A repeatable method for extracting one verifiable claim from a sales podcast and connecting it to the accounts where it might matter Revisit the rule with one current example before the next review cycle.",
+      "category": "Market intelligence",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "set-a-same-day-response-standard-for-inbound-demo-requests-for-the-next-review-cycle",
+      "title": "Set a same-day response standard for inbound demo requests for the next review cycle",
+      "description": "How to define, route, and protect a same-day response standard for inbound demo requests without hiding misses behind an average Revisit the rule with one current example before the next review cycle.",
+      "category": "Outreach operations",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "build-a-competitor-mention-tracker-for-outbound-conversations-for-the-next-review-cycle",
+      "title": "Build a competitor-mention tracker for outbound conversations for the next review cycle",
+      "description": "A small tracker that records the alternatives buyers actually name, the context behind each mention, and the patterns worth sharing Revisit the rule with one current example before the next review cycle.",
+      "category": "Market intelligence",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "create-a-stakeholder-map-for-a-slow-enterprise-deal-for-the-next-review-cycle",
+      "title": "Create a stakeholder map for a slow enterprise deal for the next review cycle",
+      "description": "A working stakeholder map that records influence, decision needs, and information flow so a long deal does not depend on one contact Revisit the rule with one current example before the next review cycle.",
+      "category": "Account strategy",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "write-a-quarterly-list-refresh-checklist-for-a-niche-bdr-team-for-the-next-review-cycle",
+      "title": "Write a quarterly list-refresh checklist for a niche BDR team for the next review cycle",
+      "description": "A field-level refresh checklist that verifies firmographics, rechecks roles, removes poor fits, and reconciles the working list with the CRM Revisit the rule with one current example before the next review cycle.",
+      "category": "Role design",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
       "slug": "build-a-trade-show-follow-up-cadence-that-survives-the-return-trip",
       "title": "Build a trade-show follow-up cadence that survives the return trip",
       "description": "A practical cadence for capturing trade-show context, sorting contacts by intent, and completing the follow-up before the details go cold.",
@@ -1987,6 +2051,62 @@
     }
   ],
   "research": [
+    {
+      "slug": "how-should-a-bdr-team-size-coverage-for-a-new-market-segment-in-the-next-review-cycle",
+      "title": "How should a BDR team size coverage for a new market segment in the next review cycle?",
+      "description": "A coverage-sizing model that estimates addressable accounts, touches per tier, and the hours hidden in research and review The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "what-should-a-bdr-team-track-when-handoffs-to-account-executives-stall-in-the-next-review-cycle",
+      "title": "What should a BDR team track when handoffs to account executives stall in the next review cycle?",
+      "description": "A handoff scorecard that separates missing context from missing interest and measures time, rework, and acknowledgement stage by stage The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Outreach operations",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-evaluate-a-purchased-contact-database-in-the-next-review-cycle",
+      "title": "How should a BDR team evaluate a purchased contact database in the next review cycle?",
+      "description": "A vendor evaluation method that tests coverage, accuracy, permission, and deliverability with a bounded pilot before a long contract The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Market intelligence",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "when-should-a-bdr-team-use-a-round-robin-sender-model-in-the-next-review-cycle",
+      "title": "When should a BDR team use a round-robin sender model in the next review cycle?",
+      "description": "A decision guide for rotating inbound leads and outbound accounts, including fairness measures, exceptions, and the accountability gaps rotations create The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Role design",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-measure-the-cost-of-a-bad-fit-meeting-in-the-next-review-cycle",
+      "title": "How should a BDR team measure the cost of a bad-fit meeting in the next review cycle?",
+      "description": "A cost model for poorly qualified meetings that counts preparation, attendance, follow-up, and the opportunity cost of the time slot The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Account strategy",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "what-makes-a-follow-up-sequence-audit-defensible-in-the-next-review-cycle",
+      "title": "What makes a follow-up sequence audit defensible in the next review cycle?",
+      "description": "The population, policy checks, evidence trail, and review habits that make a follow-up sequence audit repeatable rather than personal The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Outreach operations",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-document-buyer-objections-across-segments-in-the-next-review-cycle",
+      "title": "How should a BDR team document buyer objections across segments in the next review cycle?",
+      "description": "A documentation method that keeps the buyer's exact wording, separates objection from condition, and compares patterns without overgeneralizing The next review cycle adds a checkpoint and a clearer exception path.",
+      "category": "Market intelligence",
+      "date": "2026-11-12",
+      "image": "/refresh-20261113/service7.webp"
+    },
     {
       "slug": "how-should-a-bdr-team-size-coverage-for-a-new-market-segment",
       "title": "How should a BDR team size coverage for a new market segment?",
