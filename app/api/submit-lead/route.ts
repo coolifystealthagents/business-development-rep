@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import { sendLeadFallbackToMattermost } from '../../../lib/lead-fallback-mattermost';
 
 const personalDomains = new Set(['gmail.com','yahoo.com','hotmail.com','outlook.com','icloud.com','aol.com','proton.me','protonmail.com']);
 
@@ -22,24 +21,6 @@ export async function POST(request: Request) {
   if (full && personalDomains.has(email.split('@')[1])) {
     return NextResponse.json({ ok: false, message: 'Please use your business email address.' }, { status: 400 });
   }
-  const endpoint = process.env.ACR_LEAD_ENDPOINT;
-  if (endpoint) {
-    const payload = Object.fromEntries(form.entries());
-    delete payload.website_url;
-    const forwarded = await fetch(endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) });
-    if (!forwarded.ok) return NextResponse.json({ ok: false, message: 'We could not send your request.' }, { status: 502 });
-  }
-  void sendLeadFallbackToMattermost({
-    name: [firstName, lastName].filter(Boolean).join(' ') || legacyName,
-    email,
-    phone: String(form.get('phone') || ''),
-    business: company,
-    message: String(form.get('message') || ''),
-    companySize,
-    positions,
-    referral,
-    pageUrl: String(form.get('_page_url') || request.headers.get('referer') || ''),
-    userAgent: request.headers.get('user-agent') || '',
-  });
-  return NextResponse.json({ ok: true });
+  // Validation only. The client explicitly delivers one accepted lead through ACR.
+  return NextResponse.json({ok:true});
 }

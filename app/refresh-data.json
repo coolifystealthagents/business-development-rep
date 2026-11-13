@@ -1,0 +1,3065 @@
+{
+  "short": "Business Development Rep",
+  "heading": [
+    "Find the opening.",
+    "Start the conversation."
+  ],
+  "intro": "Turn scattered market signals into a focused next conversation. Dedicated business development support for the research, account context, and follow-through behind your growth.",
+  "serviceHeading": "Give opportunity work a clear owner.",
+  "storyHeading": "Better conversations begin before the call.",
+  "story": "Your team knows which relationships matter. The time-consuming part is assembling the context: who is involved, what has changed, what was promised, and what should happen next. A dedicated support role keeps that preparation moving.",
+  "contact": "Let\u2019s make room for your next opportunity.",
+  "footer": "Dedicated remote support for market research, account preparation, outreach operations, and the everyday work behind business development.",
+  "words": [
+    "Research with purpose",
+    "Prepare the context",
+    "Keep the next step moving"
+  ],
+  "close": "Make your next move a considered one.",
+  "theme": "growth",
+  "name": "business-development-rep",
+  "domain": "businessdevelopmentrep.com",
+  "root": "/Users/wrayns/Documents/Codex/2026-11-10/hi/work/portfolio-acr/repos/business-development-rep--main",
+  "app": "/Users/wrayns/Documents/Codex/2026-11-10/hi/work/portfolio-acr/repos/business-development-rep--main/app",
+  "brand": "Business Development Rep",
+  "services": [
+    {
+      "slug": "market-research",
+      "title": "Market research support",
+      "description": "Prepare focused market context from approved sources.",
+      "intro": "Prepare focused market context from approved sources. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Research approved segments",
+        "Document source links",
+        "Prepare market briefs",
+        "Flag uncertain findings"
+      ],
+      "outputs": [
+        "An organized market research support record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring market research support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service1.webp",
+      "alt": "Business professionals working on a laptop in an office setting, showcasing teamwork and technology.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "account-mapping",
+      "title": "Account mapping",
+      "description": "Organize target organizations, stakeholders, and known relationships.",
+      "intro": "Organize target organizations, stakeholders, and known relationships. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Prepare account maps",
+        "Maintain contact roles",
+        "Check approved criteria",
+        "Flag information gaps"
+      ],
+      "outputs": [
+        "An organized account mapping record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring account mapping queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service2.webp",
+      "alt": "An office professional reviewing documents with clients at a desk.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "partnership-research",
+      "title": "Partnership research",
+      "description": "Prepare context for relevant partner conversations.",
+      "intro": "Prepare context for relevant partner conversations. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Research partner fit",
+        "Document shared context",
+        "Prepare briefing notes",
+        "Route strategic questions"
+      ],
+      "outputs": [
+        "An organized partnership research record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring partnership research queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service3.webp",
+      "alt": "Two professionals engaged in a discussion at an office with a laptop and documents on the table.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "outreach-operations",
+      "title": "Outreach operations support",
+      "description": "Maintain approved queues, drafts, and response routing.",
+      "intro": "Maintain approved queues, drafts, and response routing. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Prepare outreach queues",
+        "Use approved messages",
+        "Record outcomes",
+        "Escalate sensitive replies"
+      ],
+      "outputs": [
+        "An organized outreach operations support record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring outreach operations support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service4.webp",
+      "alt": "A group of professionals engaging in a business meeting with laptops in a modern office setting.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "crm-opportunity-support",
+      "title": "CRM opportunity support",
+      "description": "Keep stages, ownership, and next actions reliable.",
+      "intro": "Keep stages, ownership, and next actions reliable. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Update approved fields",
+        "Check duplicate records",
+        "Maintain activity notes",
+        "Flag stale opportunities"
+      ],
+      "outputs": [
+        "An organized crm opportunity support record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring crm opportunity support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service5.webp",
+      "alt": "A happy businesswoman multitasks with a laptop, phone, and notes at her office desk, managing her online store orders.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "meeting-coordination",
+      "title": "Meeting coordination",
+      "description": "Handle scheduling and preparation around business conversations.",
+      "intro": "Handle scheduling and preparation around business conversations. When this work is scattered across inboxes and individual notes, the team spends time reconstructing context. A dedicated support role organizes the inputs and prepares the next action around a consistent, reviewable process.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "Your approved source records and current working queue",
+        "The output format, update cadence, and completion standard",
+        "A named manager and clear escalation rules"
+      ],
+      "work": [
+        "Coordinate calendars",
+        "Prepare meeting briefs",
+        "Send approved reminders",
+        "Record next actions"
+      ],
+      "outputs": [
+        "An organized meeting coordination record",
+        "A current queue of completed work, missing inputs, and next actions",
+        "Source-linked notes for the manager who reviews exceptions"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "Your team retains strategy, commercial commitments, policy changes, and relationship decisions.",
+        "The assistant follows approved instructions and brings exceptions to the named manager."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring meeting coordination queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service6.webp",
+      "alt": "Young businesswoman on phone, jotting notes at stylish office desk.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "lead-qualification-support",
+      "title": "Lead qualification support",
+      "description": "Prepare a review-ready prospect queue using the criteria your sales leaders approve.",
+      "intro": "Prepare a review-ready prospect queue using the criteria your sales leaders approve. A focused administrative role maintains the agreed record and prepares useful next actions, with exceptions kept visible for the person who has authority to resolve them.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "The current workflow, source systems, and approved access",
+        "Your templates, definitions, and completion criteria",
+        "A named review owner, communication cadence, and escalation rules"
+      ],
+      "work": [
+        "Check submitted details against the approved qualification checklist",
+        "Record role, organization, need, and available context",
+        "Separate incomplete information from a confirmed mismatch",
+        "Route qualified records and unanswered questions to the sales owner"
+      ],
+      "outputs": [
+        "A source-linked prospect brief",
+        "A queue with explicit qualification status",
+        "Questions requiring a sales decision"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "No independent promises about fit, pricing, or product capability",
+        "Your sales leader approves qualification criteria and exceptions"
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring lead qualification support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service7.webp",
+      "alt": "Smiling businesswoman taking notes while on a phone call in a modern office setting.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "pipeline-reporting-support",
+      "title": "Pipeline reporting support",
+      "description": "Bring activity, stage movement, and outstanding actions into a dependable review pack.",
+      "intro": "Bring activity, stage movement, and outstanding actions into a dependable review pack. A focused administrative role maintains the agreed record and prepares useful next actions, with exceptions kept visible for the person who has authority to resolve them.",
+      "audience": "founders, partnership leaders, and growth teams",
+      "inputs": [
+        "The current workflow, source systems, and approved access",
+        "Your templates, definitions, and completion criteria",
+        "A named review owner, communication cadence, and escalation rules"
+      ],
+      "work": [
+        "Reconcile approved CRM fields before the reporting cutoff",
+        "Separate stale records, missing owners, and conflicting stage notes",
+        "Prepare the agreed activity and next-action views",
+        "Maintain a correction log for the sales operations owner"
+      ],
+      "outputs": [
+        "A current pipeline review pack",
+        "A missing-data and stale-record list",
+        "A documented correction trail"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "No independent revenue forecast or opportunity valuation",
+        "Stage definitions and management conclusions remain with your team"
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring pipeline reporting support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service8.webp",
+      "alt": "Professional working on a laptop with papers and phone on a wooden table indoors.",
+      "position": "50% 50%"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "build-a-trade-show-follow-up-cadence-that-survives-the-return-trip",
+      "title": "Build a trade-show follow-up cadence that survives the return trip",
+      "description": "A practical cadence for capturing trade-show context, sorting contacts by intent, and completing the follow-up before the details go cold.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/build-a-trade-show-follow-up-cadence-that-survives-the-return-trip.webp"
+    },
+    {
+      "slug": "write-a-call-opening-that-earns-the-next-thirty-seconds",
+      "title": "Write a call opening that earns the next thirty seconds",
+      "description": "A call-opening structure built on a specific reason, one clear question, and a respectful exit instead of a scripted compliment.",
+      "category": "Outreach operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/write-a-call-opening-that-earns-the-next-thirty-seconds.webp"
+    },
+    {
+      "slug": "design-a-weekly-territory-coverage-check-for-a-small-bdr-pod",
+      "title": "Design a weekly territory coverage check for a small BDR pod",
+      "description": "A thirty-minute coverage review that counts touches by account tier, surfaces quiet accounts, and assigns one owned action per gap.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/design-a-weekly-territory-coverage-check-for-a-small-bdr-pod.webp"
+    },
+    {
+      "slug": "turn-a-sales-podcast-into-a-short-sourced-account-brief",
+      "title": "Turn a sales podcast into a short, sourced account brief",
+      "description": "A repeatable method for extracting one verifiable claim from a sales podcast and connecting it to the accounts where it might matter.",
+      "category": "Market intelligence",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/turn-a-sales-podcast-into-a-short-sourced-account-brief.webp"
+    },
+    {
+      "slug": "set-a-same-day-response-standard-for-inbound-demo-requests",
+      "title": "Set a same-day response standard for inbound demo requests",
+      "description": "How to define, route, and protect a same-day response standard for inbound demo requests without hiding misses behind an average.",
+      "category": "Outreach operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/set-a-same-day-response-standard-for-inbound-demo-requests.webp"
+    },
+    {
+      "slug": "build-a-competitor-mention-tracker-for-outbound-conversations",
+      "title": "Build a competitor-mention tracker for outbound conversations",
+      "description": "A small tracker that records the alternatives buyers actually name, the context behind each mention, and the patterns worth sharing.",
+      "category": "Market intelligence",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/build-a-competitor-mention-tracker-for-outbound-conversations.webp"
+    },
+    {
+      "slug": "create-a-stakeholder-map-for-a-slow-enterprise-deal",
+      "title": "Create a stakeholder map for a slow enterprise deal",
+      "description": "A working stakeholder map that records influence, decision needs, and information flow so a long deal does not depend on one contact.",
+      "category": "Account strategy",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/create-a-stakeholder-map-for-a-slow-enterprise-deal.webp"
+    },
+    {
+      "slug": "write-a-quarterly-list-refresh-checklist-for-a-niche-bdr-team",
+      "title": "Write a quarterly list-refresh checklist for a niche BDR team",
+      "description": "A field-level refresh checklist that verifies firmographics, rechecks roles, removes poor fits, and reconciles the working list with the CRM.",
+      "category": "Role design",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/write-a-quarterly-list-refresh-checklist-for-a-niche-bdr-team.webp"
+    },
+    {
+      "slug": "run-a-weekly-account-signal-review-that-changes-next-actions",
+      "title": "Run a weekly account-signal review that changes next actions",
+      "description": "A short weekly review that turns account signals into owned next steps, with explicit rules for what the team will change and what it will ignore.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/run-a-weekly-account-signal-review-that-changes-next-actions.webp"
+    },
+    {
+      "slug": "build-a-handoff-scorecard-for-research-passed-to-outbound",
+      "title": "Build a handoff scorecard for research passed to outbound",
+      "description": "A compact scorecard that tells a research handoff whether it is usable, sourced, and specific enough for an outbound sender to act on.",
+      "category": "Outreach operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/build-a-handoff-scorecard-for-research-passed-to-outbound.webp"
+    },
+    {
+      "slug": "design-a-renewal-risk-alert-for-accounts-with-quiet-stakeholders",
+      "title": "Design a renewal-risk alert for accounts with quiet stakeholders",
+      "description": "A renewal alert that spots disengaged stakeholders early and gives the account owner a specific, evidence-based reason to act.",
+      "category": "Account strategy",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/design-a-renewal-risk-alert-for-accounts-with-quiet-stakeholders.webp"
+    },
+    {
+      "slug": "turn-a-messy-webinar-chat-into-a-segmented-follow-up-list",
+      "title": "Turn a messy webinar chat into a segmented follow-up list",
+      "description": "A method for reading webinar chat for real questions, objections, and buying signals, then routing each segment to a useful follow-up.",
+      "category": "Event operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/turn-a-messy-webinar-chat-into-a-segmented-follow-up-list.webp"
+    },
+    {
+      "slug": "set-a-decision-rights-map-for-a-shared-bdr-support-pod",
+      "title": "Set a decision-rights map for a shared BDR support pod",
+      "description": "A practical decision map for shared support pods, showing who decides, who consults, and when an exception must escalate.",
+      "category": "Role design",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/set-a-decision-rights-map-for-a-shared-bdr-support-pod.webp"
+    },
+    {
+      "slug": "write-a-polite-exit-that-keeps-a-stalled-prospect-warm",
+      "title": "Write a polite exit that keeps a stalled prospect warm",
+      "description": "A short exit message that closes a stalled conversation without pressure and leaves a clear, low-effort way for the buyer to return.",
+      "category": "Outreach operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/write-a-polite-exit-that-keeps-a-stalled-prospect-warm.webp"
+    },
+    {
+      "slug": "audit-a-prospect-list-for-stale-firmographic-data",
+      "title": "Audit a prospect list for stale firmographic data",
+      "description": "A sampling method for finding stale company and contact data before it sends the wrong message to the wrong segment.",
+      "category": "Market intelligence",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/audit-a-prospect-list-for-stale-firmographic-data.webp"
+    },
+    {
+      "slug": "create-a-first-week-ramp-plan-for-an-outsourced-research-assistant",
+      "title": "Create a first-week ramp plan for an outsourced research assistant",
+      "description": "A first-week plan that gets a new research assistant to useful output quickly without hiding review gaps or skipping source standards.",
+      "category": "Role design",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/create-a-first-week-ramp-plan-for-an-outsourced-research-assistant.webp"
+    },
+    {
+      "slug": "build-a-same-day-triage-rule-for-inbound-chat-leads",
+      "title": "Build a same-day triage rule for inbound chat leads",
+      "description": "A chat triage routine that acknowledges fast, separates fit from readiness, and routes each lead to a named owner with a written next step.",
+      "category": "Outreach operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/build-a-same-day-triage-rule-for-inbound-chat-leads.webp"
+    },
+    {
+      "slug": "turn-a-conference-attendee-list-into-a-prioritized-follow-up-queue",
+      "title": "Turn a conference attendee list into a prioritized follow-up queue",
+      "description": "A post-event method for ranking attendees by real conversation evidence, assigning owners, and following up before the event context fades.",
+      "category": "Event operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/turn-a-conference-attendee-list-into-a-prioritized-follow-up-queue.webp"
+    },
+    {
+      "slug": "write-a-discovery-recap-the-buyer-will-actually-correct",
+      "title": "Write a discovery recap the buyer will actually correct",
+      "description": "A recap format that restates the buyer's problem, evidence, and open questions in language they can confirm or correct quickly.",
+      "category": "Account strategy",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/write-a-discovery-recap-the-buyer-will-actually-correct.webp"
+    },
+    {
+      "slug": "set-a-monthly-sample-review-for-outbound-personalization",
+      "title": "Set a monthly sample review for outbound personalization",
+      "description": "A lightweight review that checks whether outbound personalization is accurate, relevant, and worth the research time it consumes.",
+      "category": "Quality review",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/set-a-monthly-sample-review-for-outbound-personalization.webp"
+    },
+    {
+      "slug": "design-a-research-checklist-for-a-regulated-industry-prospect",
+      "title": "Design a research checklist for a regulated industry prospect",
+      "description": "A research checklist that separates public facts from assumptions when the buyer works in a regulated industry with real compliance constraints.",
+      "category": "Market intelligence",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/design-a-research-checklist-for-a-regulated-industry-prospect.webp"
+    },
+    {
+      "slug": "create-a-coverage-plan-for-inbound-leads-when-an-owner-is-out",
+      "title": "Create a coverage plan for inbound leads when an owner is out",
+      "description": "A coverage plan that keeps inbound leads moving during vacation, sick leave, or a sudden departure without losing context or ownership.",
+      "category": "Role design",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/create-a-coverage-plan-for-inbound-leads-when-an-owner-is-out.webp"
+    },
+    {
+      "slug": "use-a-closed-lost-review-to-decide-when-to-re-engage",
+      "title": "Use a closed-lost review to decide when to re-engage",
+      "description": "A closed-lost review that records the real reason an account stalled and sets a specific trigger for a future conversation.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/use-a-closed-lost-review-to-decide-when-to-re-engage.webp"
+    },
+    {
+      "slug": "build-a-one-page-brief-for-a-partner-led-opportunity",
+      "title": "Build a one-page brief for a partner-led opportunity",
+      "description": "A partner brief that names the shared account, the roles on each side, the open questions, and the rules for contacting the buyer.",
+      "category": "Partnership systems",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/build-a-one-page-brief-for-a-partner-led-opportunity.webp"
+    },
+    {
+      "slug": "build-a-first-call-agenda-for-a-revived-prospect",
+      "title": "Build a first-call agenda for a revived prospect",
+      "description": "A revival call agenda that checks what changed, confirms the buyer's current problem, and records a clear next step.",
+      "category": "Account strategy",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/build-a-first-call-agenda-for-a-revived-prospect.webp"
+    },
+    {
+      "slug": "turn-a-referral-into-a-tracked-account-with-a-source-note",
+      "title": "Turn a referral into a tracked account with a source note",
+      "description": "A referral intake routine that records the source, separates fact from hearsay, and gives the account a real owner.",
+      "category": "Partnership systems",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/turn-a-referral-into-a-tracked-account-with-a-source-note.webp"
+    },
+    {
+      "slug": "audit-next-step-fields-before-a-pipeline-review",
+      "title": "Audit next-step fields before a pipeline review",
+      "description": "A pre-review check that finds vague next steps, missing owners, and dates that cannot be trusted before the pipeline meeting starts.",
+      "category": "Outreach operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/audit-next-step-fields-before-a-pipeline-review.webp"
+    },
+    {
+      "slug": "write-a-no-response-follow-up-that-adds-new-information",
+      "title": "Write a no-response follow-up that adds new information",
+      "description": "A follow-up method that earns a reply by adding a useful fact, a sharper question, or a relevant example instead of repeating the first message.",
+      "category": "Outreach operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/write-a-no-response-follow-up-that-adds-new-information.webp"
+    },
+    {
+      "slug": "set-a-research-standard-for-competitor-mentions-in-outreach",
+      "title": "Set a research standard for competitor mentions in outreach",
+      "description": "A source and review standard for competitor claims so outreach stays accurate, fair, and easy to defend when a buyer pushes back.",
+      "category": "Market intelligence",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/set-a-research-standard-for-competitor-mentions-in-outreach.webp"
+    },
+    {
+      "slug": "create-a-meeting-prep-sheet-the-account-executive-will-actually-read",
+      "title": "Create a meeting prep sheet the account executive will actually read",
+      "description": "A one-page meeting brief with the buyer context, open questions, and evidence an account executive needs in the five minutes before a call.",
+      "category": "Account strategy",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/create-a-meeting-prep-sheet-the-account-executive-will-actually-read.webp"
+    },
+    {
+      "slug": "use-a-hold-list-to-protect-priority-accounts-during-a-launch",
+      "title": "Use a hold list to protect priority accounts during a launch",
+      "description": "A launch-time hold list that pauses low-value touches, protects priority accounts, and keeps the queue honest about capacity.",
+      "category": "Role design",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/use-a-hold-list-to-protect-priority-accounts-during-a-launch.webp"
+    },
+    {
+      "slug": "design-a-weekly-data-clean-up-block-for-a-two-person-bdr-team",
+      "title": "Design a weekly data clean-up block for a two-person BDR team",
+      "description": "A short weekly data routine that fixes the fields a small BDR team depends on without turning cleanup into a full-time job.",
+      "category": "Outreach operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/design-a-weekly-data-clean-up-block-for-a-two-person-bdr-team.webp"
+    },
+    {
+      "slug": "build-a-lead-handoff-note-that-survives-a-territory-change",
+      "title": "Build a lead handoff note that survives a territory change",
+      "description": "A field-ready handoff note that keeps a lead moving when the account moves to a new owner.",
+      "category": "Account strategy",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/build-a-lead-handoff-note-that-survives-a-territory-change.webp"
+    },
+    {
+      "slug": "set-a-daily-follow-up-cut-off-without-losing-warm-leads",
+      "title": "Set a daily follow-up cut-off without losing warm leads",
+      "description": "A practical end-of-day rule that protects focus, routes late replies, and keeps warm leads from going cold.",
+      "category": "Role design",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/set-a-daily-follow-up-cut-off-without-losing-warm-leads.webp"
+    },
+    {
+      "slug": "turn-a-stopped-outreach-sequence-into-a-documented-decision",
+      "title": "Turn a stopped outreach sequence into a documented decision",
+      "description": "How to close, pause, or reroute a stopped sequence with evidence the team can review later.",
+      "category": "Account strategy",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/turn-a-stopped-outreach-sequence-into-a-documented-decision.webp"
+    },
+    {
+      "slug": "review-bdr-call-notes-for-evidence-not-activity",
+      "title": "Review BDR call notes for evidence, not activity",
+      "description": "A short review method that tests whether call notes support the next decision instead of just proving the call happened.",
+      "category": "Market intelligence",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/review-bdr-call-notes-for-evidence-not-activity.webp"
+    },
+    {
+      "slug": "prepare-a-prospect-list-for-a-new-market-without-guessing",
+      "title": "Prepare a prospect list for a new market without guessing",
+      "description": "A source-led method for building a first prospect list in an unfamiliar market with visible evidence and limits.",
+      "category": "Market intelligence",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/prepare-a-prospect-list-for-a-new-market-without-guessing.webp"
+    },
+    {
+      "slug": "write-a-partner-introduction-brief-the-account-owner-can-send",
+      "title": "Write a partner introduction brief the account owner can send",
+      "description": "A concise introduction brief that gives a partner enough context to act without a second internal meeting.",
+      "category": "Partnership systems",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/write-a-partner-introduction-brief-the-account-owner-can-send.webp"
+    },
+    {
+      "slug": "keep-a-shared-inbox-from-becoming-a-bdr-queue",
+      "title": "Keep a shared inbox from becoming a BDR queue",
+      "description": "A routing routine that keeps a shared inbox responsive while the BDR queue stays the system of record.",
+      "category": "Role design",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/keep-a-shared-inbox-from-becoming-a-bdr-queue.webp"
+    },
+    {
+      "slug": "build-a-simple-capacity-plan-for-a-growing-bdr-queue",
+      "title": "Build a simple capacity plan for a growing BDR queue",
+      "description": "A practical way to estimate BDR queue capacity with real work categories, review time, and honest buffers.",
+      "category": "Role design",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/build-a-simple-capacity-plan-for-a-growing-bdr-queue.webp"
+    },
+    {
+      "slug": "qualify-inbound-leads-with-a-two-minute-fit-checklist",
+      "title": "Qualify inbound leads with a two-minute fit checklist",
+      "description": "A practical intake routine that helps a BDR team route inbound leads with consistent evidence instead of memory.",
+      "category": "Account strategy",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/qualify-inbound-leads-with-a-two-minute-fit-checklist.webp"
+    },
+    {
+      "slug": "write-a-discovery-brief-your-bdr-team-can-reuse",
+      "title": "Write a discovery brief your BDR team can reuse",
+      "description": "A one-page brief format that gives a BDR the context to start a real conversation without turning research into a dossier.",
+      "category": "Role design",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/write-a-discovery-brief-your-bdr-team-can-reuse.webp"
+    },
+    {
+      "slug": "attach-prospect-research-evidence-to-the-crm-record",
+      "title": "Attach prospect research evidence to the CRM record",
+      "description": "A field-level method for keeping source links, dates, and confidence notes attached to the opportunity where the team can review them.",
+      "category": "Market intelligence",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/attach-prospect-research-evidence-to-the-crm-record.webp"
+    },
+    {
+      "slug": "run-a-weekly-account-tier-review-that-changes-the-queue",
+      "title": "Run a weekly account tier review that changes the queue",
+      "description": "A short review routine that keeps account tiers tied to evidence, capacity, and the next action instead of habit.",
+      "category": "Account strategy",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/run-a-weekly-account-tier-review-that-changes-the-queue.webp"
+    },
+    {
+      "slug": "set-human-approval-gates-in-a-partnership-outreach-sequence",
+      "title": "Set human approval gates in a partnership outreach sequence",
+      "description": "Where to pause an automated sequence so a person reviews commitments, sensitive replies, and relationship risks before a message goes out.",
+      "category": "Partnership systems",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/set-human-approval-gates-in-a-partnership-outreach-sequence.webp"
+    },
+    {
+      "slug": "write-a-recovery-note-for-stalled-opportunities",
+      "title": "Write a recovery note for stalled opportunities",
+      "description": "A short record that separates the last verified fact from the real blocker and forces one clear next action.",
+      "category": "Account strategy",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/write-a-recovery-note-for-stalled-opportunities.webp"
+    },
+    {
+      "slug": "turn-event-attendee-lists-into-a-prioritized-follow-up-queue",
+      "title": "Turn event attendee lists into a prioritized follow-up queue",
+      "description": "A cleaning, scoring, and routing workflow for event contacts that keeps consent and capacity in view.",
+      "category": "Market intelligence",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/turn-event-attendee-lists-into-a-prioritized-follow-up-queue.webp"
+    },
+    {
+      "slug": "teach-a-bdr-assistant-your-ideal-customer-profile-in-one-workshop",
+      "title": "Teach a BDR assistant your ideal customer profile in one workshop",
+      "description": "A working session that turns a profile document into observable traits, scored examples, and escalation rules.",
+      "category": "Role design",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/teach-a-bdr-assistant-your-ideal-customer-profile-in-one-workshop.webp"
+    },
+    {
+      "slug": "map-the-market-research-decision-to-one-accountable-owner",
+      "title": "Map the market research decision to one accountable owner",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/map-the-market-research-decision-to-one-accountable-owner.webp"
+    },
+    {
+      "slug": "write-the-account-mapping-intake-note-that-survives-a-later-review",
+      "title": "Write the account mapping intake note that survives a later review",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Documentation",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/write-the-account-mapping-intake-note-that-survives-a-later-review.webp"
+    },
+    {
+      "slug": "cut-rework-at-the-partnership-research-handoff-with-a-two-field-check",
+      "title": "Cut rework at the partnership research handoff with a two-field check",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on partnership research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Handoff design",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/cut-rework-at-the-partnership-research-handoff-with-a-two-field-check.webp"
+    },
+    {
+      "slug": "resolve-a-conflicting-outreach-operations-record-without-erasing-history",
+      "title": "Resolve a conflicting outreach operations record without erasing history",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on outreach operations and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Record integrity",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/resolve-a-conflicting-outreach-operations-record-without-erasing-history.webp"
+    },
+    {
+      "slug": "sample-crm-opportunity-quality-weekly-not-only-volume",
+      "title": "Sample crm opportunity quality weekly, not only volume",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on crm opportunity and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/sample-crm-opportunity-quality-weekly-not-only-volume.webp"
+    },
+    {
+      "slug": "build-an-exception-code-list-the-meeting-coordination-team-will-use",
+      "title": "Build an exception code list the meeting coordination team will use",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on meeting coordination and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Exception control",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/build-an-exception-code-list-the-meeting-coordination-team-will-use.webp"
+    },
+    {
+      "slug": "keep-market-research-queue-evidence-durable-when-the-systems-change",
+      "title": "Keep market research queue evidence durable when the systems change",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/keep-market-research-queue-evidence-durable-when-the-systems-change.webp"
+    },
+    {
+      "slug": "prepare-account-mapping-queue-work-for-month-end-without-a-scramble",
+      "title": "Prepare account mapping queue work for month-end without a scramble",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/prepare-account-mapping-queue-work-for-month-end-without-a-scramble.webp"
+    },
+    {
+      "slug": "map-the-market-research-decision-to-one-accountable-owner",
+      "title": "Map the market research decision to one accountable owner",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/map-the-market-research-decision-to-one-accountable-owner.webp"
+    },
+    {
+      "slug": "write-the-account-mapping-intake-note-that-survives-a-later-review",
+      "title": "Write the account mapping intake note that survives a later review",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Documentation",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/write-the-account-mapping-intake-note-that-survives-a-later-review.webp"
+    },
+    {
+      "slug": "cut-rework-at-the-partnership-research-handoff-with-a-two-field-check",
+      "title": "Cut rework at the partnership research handoff with a two-field check",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on partnership research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Handoff design",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/cut-rework-at-the-partnership-research-handoff-with-a-two-field-check.webp"
+    },
+    {
+      "slug": "resolve-a-conflicting-outreach-operations-record-without-erasing-history",
+      "title": "Resolve a conflicting outreach operations record without erasing history",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on outreach operations and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Record integrity",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/resolve-a-conflicting-outreach-operations-record-without-erasing-history.webp"
+    },
+    {
+      "slug": "sample-crm-opportunity-quality-weekly-not-only-volume",
+      "title": "Sample crm opportunity quality weekly, not only volume",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on crm opportunity and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/sample-crm-opportunity-quality-weekly-not-only-volume.webp"
+    },
+    {
+      "slug": "build-an-exception-code-list-the-meeting-coordination-team-will-use",
+      "title": "Build an exception code list the meeting coordination team will use",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on meeting coordination and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Exception control",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/build-an-exception-code-list-the-meeting-coordination-team-will-use.webp"
+    },
+    {
+      "slug": "keep-market-research-queue-evidence-durable-when-the-systems-change",
+      "title": "Keep market research queue evidence durable when the systems change",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/keep-market-research-queue-evidence-durable-when-the-systems-change.webp"
+    },
+    {
+      "slug": "prepare-account-mapping-queue-work-for-month-end-without-a-scramble",
+      "title": "Prepare account mapping queue work for month-end without a scramble",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/prepare-account-mapping-queue-work-for-month-end-without-a-scramble.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-map-the-market-research-decision-to-one-accountable-owner-2026-11-03",
+      "title": "Map the market research decision to one accountable owner",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-map-the-market-research-decision-to-one-accountable-owner-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-write-the-account-mapping-intake-note-that-survives-a-later-review-2026-11-03",
+      "title": "Write the account mapping intake note that survives a later review",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Documentation",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-write-the-account-mapping-intake-note-that-survives-a-later-review-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-cut-rework-at-the-partnership-research-handoff-with-a-two-field-check-2026-11-03",
+      "title": "Cut rework at the partnership research handoff with a two-field check",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on partnership research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Handoff design",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-cut-rework-at-the-partnership-research-handoff-with-a-two-field-check-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-resolve-a-conflicting-outreach-operations-record-without-erasing-history-2026-11-03",
+      "title": "Resolve a conflicting outreach operations record without erasing history",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on outreach operations and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Record integrity",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-resolve-a-conflicting-outreach-operations-record-without-erasing-history-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-sample-crm-opportunity-quality-weekly-not-only-volume-2026-11-03",
+      "title": "Sample crm opportunity quality weekly, not only volume",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on crm opportunity and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-sample-crm-opportunity-quality-weekly-not-only-volume-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-build-an-exception-code-list-the-meeting-coordination-team-will-use-2026-11-03",
+      "title": "Build an exception code list the meeting coordination team will use",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on meeting coordination and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Exception control",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-build-an-exception-code-list-the-meeting-coordination-team-will-use-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-keep-market-research-queue-evidence-durable-when-the-systems-change-2026-11-03",
+      "title": "Keep market research queue evidence durable when the systems change",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-keep-market-research-queue-evidence-durable-when-the-systems-change-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-prepare-account-mapping-queue-work-for-month-end-without-a-scramble-2026-11-03",
+      "title": "Prepare account mapping queue work for month-end without a scramble",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-prepare-account-mapping-queue-work-for-month-end-without-a-scramble-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-account-brief-evidence-2026-11-02",
+      "title": "Build an account brief the sales team can verify",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on account research brief and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Account briefs",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-account-brief-evidence-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-lead-routing-proof-2026-11-02",
+      "title": "Keep proof of every lead-routing decision",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on lead routing evidence and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Lead management",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-lead-routing-proof-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-sequence-exit-review-2026-11-02",
+      "title": "Write exit criteria before a sequence ends",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on sequence exit review and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Sequence operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-sequence-exit-review-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-meeting-followup-log-2026-11-02",
+      "title": "Turn meeting follow-ups into dated owner records",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on meeting follow-up log and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Meeting coordination",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-meeting-followup-log-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-crm-stage-hygiene-2026-11-02",
+      "title": "Clean CRM stage changes before forecast review",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on CRM stage hygiene and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "CRM operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-crm-stage-hygiene-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-partner-referral-intake-2026-11-02",
+      "title": "Make partner referrals arrive with usable evidence",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on partner referral intake and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Partner operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-partner-referral-intake-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-proposal-followup-tracker-2026-11-02",
+      "title": "Track proposal follow-ups without inventing urgency",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on proposal follow-up tracker and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Proposal support",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-proposal-followup-tracker-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-territory-coverage-map-2026-11-02",
+      "title": "Map account coverage before adding outreach",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on territory coverage map and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Territory planning",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-territory-coverage-map-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-win-loss-interview-notes-2026-11-02",
+      "title": "Keep win-loss notes separate from opinion",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on win-loss interview notes and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Win-loss notes",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-win-loss-interview-notes-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-outreach-qa-sample-2026-11-02",
+      "title": "Run a small outreach QA sample every week",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on outreach QA sample and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Quality control",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-outreach-qa-sample-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-renewal-signal-review-2026-11-02",
+      "title": "Review renewal signals with a dated evidence trail",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on renewal signal review and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Retention operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-renewal-signal-review-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-pipeline-handoff-audit-2026-11-02",
+      "title": "Audit the pipeline handoff before quarter close",
+      "description": "A Business Development Rep field guide for founders, partnership leaders, and growth teams, focused on pipeline handoff audit and bounded by dated evidence, clear ownership, and a practical close condition.",
+      "category": "Pipeline operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-pipeline-handoff-audit-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-map-the-market-research-decision-to-one-accountable-owner-2026-11-01",
+      "title": "Map the market research decision to one accountable owner",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-map-the-market-research-decision-to-one-accountable-owner-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-write-the-account-mapping-intake-note-that-survives-a-later-review-2026-11-01",
+      "title": "Write the account mapping intake note that survives a later review",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Documentation",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-write-the-account-mapping-intake-note-that-survives-a-later-review-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-cut-rework-at-the-partnership-research-handoff-with-a-two-field-check-2026-11-01",
+      "title": "Cut rework at the partnership research handoff with a two-field check",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on partnership research and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Handoff design",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-cut-rework-at-the-partnership-research-handoff-with-a-two-field-check-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-resolve-a-conflicting-outreach-operations-record-without-erasing-history-2026-11-01",
+      "title": "Resolve a conflicting outreach operations record without erasing history",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on outreach operations and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Record integrity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-resolve-a-conflicting-outreach-operations-record-without-erasing-history-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-sample-crm-opportunity-quality-weekly-not-only-volume-2026-11-01",
+      "title": "Sample crm opportunity quality weekly, not only volume",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on crm opportunity and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-sample-crm-opportunity-quality-weekly-not-only-volume-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-build-an-exception-code-list-the-meeting-coordination-team-will-use-2026-11-01",
+      "title": "Build an exception code list the meeting coordination team will use",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on meeting coordination and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Exception control",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-build-an-exception-code-list-the-meeting-coordination-team-will-use-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-keep-market-research-queue-evidence-durable-when-the-systems-change-2026-11-01",
+      "title": "Keep market research queue evidence durable when the systems change",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on market research queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-keep-market-research-queue-evidence-durable-when-the-systems-change-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-prepare-account-mapping-queue-work-for-month-end-without-a-scramble-2026-11-01",
+      "title": "Prepare account mapping queue work for month-end without a scramble",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on account mapping queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-prepare-account-mapping-queue-work-for-month-end-without-a-scramble-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-coach-a-specialist-through-a-partnership-research-queue-near-miss-2026-11-01",
+      "title": "Coach a specialist through a partnership research queue near miss",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on partnership research queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Coaching",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-coach-a-specialist-through-a-partnership-research-queue-near-miss-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-decide-what-a-va-may-send-on-outreach-operations-queue-without-a-second-review-2026-11-01",
+      "title": "Decide what a VA may send on outreach operations queue without a second review",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on outreach operations queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Delegation boundaries",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-decide-what-a-va-may-send-on-outreach-operations-queue-without-a-second-review-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-turn-a-crm-opportunity-queue-backlog-into-a-dated-work-plan-2026-11-01",
+      "title": "Turn a crm opportunity queue backlog into a dated work plan",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on crm opportunity queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Backlog planning",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-turn-a-crm-opportunity-queue-backlog-into-a-dated-work-plan-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-protect-meeting-coordination-queue-coverage-during-leave-and-turnover-2026-11-01",
+      "title": "Protect meeting coordination queue coverage during leave and turnover",
+      "description": "A business development teams guide for founders, partnership leaders, and growth teams, focused on meeting coordination queue and bounded by honest evidence Written for the Business Development Rep desk at businessdevelopmentrep.com.",
+      "category": "Continuity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-protect-meeting-coordination-queue-coverage-during-leave-and-turnover-2026-11-01.webp"
+    },
+    {
+      "slug": "weekly-pipeline-source-review",
+      "title": "Run a weekly review of pipeline source evidence",
+      "description": "A weekly routine for checking whether every open opportunity still has a traceable source, owner, and next action.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "lead-list-dedupe-control",
+      "title": "Deduplicate a lead list before the first outreach",
+      "description": "A practical control for merging duplicate accounts and contacts without losing the history that explains the outreach.",
+      "category": "Outbound systems",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "account-tier-refresh",
+      "title": "Refresh account tiers when the market moves",
+      "description": "A quarterly review that keeps account tiers aligned with current fit, intent, and coverage instead of last year assumptions.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "sequence-exit-criteria",
+      "title": "Write exit criteria for an outbound sequence",
+      "description": "A clear exit rule that stops a sequence when the prospect replies, changes role, or no longer fits the account.",
+      "category": "Outbound systems",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "crm-stage-evidence",
+      "title": "Require evidence before moving a CRM stage",
+      "description": "A stage gate that makes the opportunity record show the conversation, decision, and next step before the pipeline number changes.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "territory-handoff-register",
+      "title": "Keep a territory handoff register",
+      "description": "A register that preserves account ownership, open conversations, and commitments when a territory or rep changes.",
+      "category": "Outbound systems",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "prospect-research-brief-v2",
+      "title": "Build a prospect research brief the seller will use",
+      "description": "A short research brief that separates verified account facts from assumptions and gives the seller one useful opening.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "reply-intent-routing",
+      "title": "Route replies by intent instead of inbox order",
+      "description": "A routing rule that sends positive replies, objections, referrals, and opt-outs to the right owner without losing the response clock.",
+      "category": "Outbound systems",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "meeting-handoff-readiness",
+      "title": "Check meeting handoff readiness before the calendar invite",
+      "description": "A pre-meeting check that confirms the account, attendees, objective, and evidence are ready for the seller who will run the call.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "outbound-suppression-check",
+      "title": "Run an outbound suppression check before every send",
+      "description": "A send-time check for opt-outs, existing customers, active opportunities, and do-not-contact records across tools.",
+      "category": "Outbound systems",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "quota-pacing-review",
+      "title": "Review quota pacing without hiding pipeline risk",
+      "description": "A weekly pacing review that compares activity with qualified pipeline and surfaces coverage risk early.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "partner-lead-qualification",
+      "title": "Qualify partner-sourced leads before assigning them",
+      "description": "A qualification step that verifies the partner source, the buyer need, and the handoff owner before a partner lead enters the pipeline.",
+      "category": "Business development",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "priority-matrix-control",
+      "title": "Prioritize a Backlog for outbound business development and lead research With a Written Matrix",
+      "description": "A priority matrix for outbound business development and lead research that separates impact, deadline, dependency, and owner decision before work moves.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "service-clock-start-control",
+      "title": "Start the Service Clock for outbound business development and lead research at the Right Event",
+      "description": "A clock-start standard for outbound business development and lead research that names the triggering event, the evidence, and the time zone.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "requester-confirmation-control",
+      "title": "Confirm a outbound business development and lead research Request in Writing Before Work Starts",
+      "description": "A written confirmation step for outbound business development and lead research that locks the scope, the requester, and the next action before production begins.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "dependency-map-control",
+      "title": "Map Dependencies for outbound business development and lead research Before Promising a Date",
+      "description": "A dependency map for outbound business development and lead research that shows the upstream input, the owner, the expected date, and the risk to the promise.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "rework-root-cause-control",
+      "title": "Separate Rework From New Work in outbound business development and lead research",
+      "description": "A rework classification for outbound business development and lead research that keeps repeat effort visible instead of hiding it in new requests.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "coverage-bench-control",
+      "title": "Build a Coverage Bench for outbound business development and lead research Without Hidden Overtime",
+      "description": "A coverage bench for outbound business development and lead research that names the backup, the cross-training, and the overtime trigger before absence hits.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "promise-register-control",
+      "title": "Keep a Customer Promise Register for outbound business development and lead research",
+      "description": "A promise register for outbound business development and lead research that records what was promised, by whom, to whom, and when it was verified.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "evidence-retention-control",
+      "title": "Set an Evidence Retention Rule for outbound business development and lead research",
+      "description": "A retention rule for outbound business development and lead research that names what to keep, where, for how long, and who can retrieve it.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "vendor-handoff-receipt",
+      "title": "Hand Off outbound business development and lead research Vendor Work With a Receipt",
+      "description": "A vendor handoff receipt for outbound business development and lead research that records the scope, the files, the acceptance check, and the return path.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "incident-postmortem-control",
+      "title": "Run an Incident Postmortem for outbound business development and lead research That Changes a Control",
+      "description": "A postmortem for outbound business development and lead research that separates trigger, cause, impact, and the one control change that prevents recurrence.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "role-boundary-refresh",
+      "title": "Refresh the Role Boundary for outbound business development and lead research After Scope Changes",
+      "description": "A role-boundary refresh for outbound business development and lead research that updates the allowed actions, approvals, and stop rules when the scope changes.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "quarterly-control-review",
+      "title": "Review Controls for outbound business development and lead research Quarterly With a Testable Sample",
+      "description": "A quarterly control review for outbound business development and lead research that tests evidence, ownership, and exception handling on a small sample.",
+      "category": "Business development",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "request-triage-standard",
+      "title": "Triage Requests for outbound business development and lead research Before They Reach the Queue",
+      "description": "A triage standard for outbound business development and lead research that captures the request, checks authority, and finds existing work before a new item is created.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "capacity-plan",
+      "title": "Plan Capacity for outbound business development and lead research From Real Workload",
+      "description": "A capacity model for outbound business development and lead research that compares work volume, handling time, rework, and available hours before promises are made.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "document-completeness",
+      "title": "Stop Incomplete Files in outbound business development and lead research Work",
+      "description": "A completeness gate for outbound business development and lead research that names the required documents, checks version and signature, and returns gaps without rework.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "client-update-cadence",
+      "title": "Set a Client Update Cadence for outbound business development and lead research",
+      "description": "A client update rhythm for outbound business development and lead research that ties the message to the work state and keeps commitments with the owner.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "supplier-followup",
+      "title": "Track Supplier Follow-Up for outbound business development and lead research",
+      "description": "A supplier follow-up log for outbound business development and lead research that keeps one request, one reference, and one next date per issue.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "recurring-task-calendar-control",
+      "title": "Put Recurring outbound business development and lead research Work on a Controlled Calendar",
+      "description": "A recurring-work calendar for outbound business development and lead research that records the frequency rule, the owner, the backup, and the completion evidence.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "duplicate-detection",
+      "title": "Detect Duplicate Records in outbound business development and lead research",
+      "description": "A duplicate check for outbound business development and lead research that uses two identifiers, holds both records, and leaves the merge decision with the owner.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "approval-threshold",
+      "title": "Route outbound business development and lead research Approvals by a Written Threshold",
+      "description": "An approval routing rule for outbound business development and lead research that publishes the threshold, captures the value, and names a backup approver.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "decision-log",
+      "title": "Keep a outbound business development and lead research Decision Log People Can Use",
+      "description": "A decision log for outbound business development and lead research that records the options, evidence, owner, rationale, and what the decision supersedes.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "change-communication",
+      "title": "Announce Process Changes in outbound business development and lead research Before They Bite",
+      "description": "A change communication pack for outbound business development and lead research that names the effective date, affected roles, training, and rollback.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "knowledge-refresh",
+      "title": "Refresh Work Instructions for outbound business development and lead research on a Schedule",
+      "description": "A work-instruction refresh cycle for outbound business development and lead research that assigns an owner, checks the source version, and confirms readers saw the update.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "month-end-close",
+      "title": "Close the outbound business development and lead research Month With a Reconciliation Checklist",
+      "description": "A month-end close for outbound business development and lead research that freezes the period, reconciles counts, lists exceptions, and records owner sign-off.",
+      "category": "Business development",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "intake-evidence-control",
+      "title": "Build a outbound business development and lead research Intake Record That Preserves Evidence",
+      "description": "A staged intake record for outbound business development and lead research, with source, owner, and a clear stop before the work moves.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "queue-ownership",
+      "title": "Give Every outbound business development and lead research Queue Item One Owner",
+      "description": "An ownership model for outbound business development and lead research work that separates ready, blocked, and decision items.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "exception-path",
+      "title": "Write the outbound business development and lead research Exception Path Before Volume Arrives",
+      "description": "A short exception protocol for outbound business development and lead research that names the reason, the owner, and the prohibited action.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "source-map",
+      "title": "Map the Sources Behind outbound business development and lead research Decisions",
+      "description": "A source map for outbound business development and lead research that separates the governing record from commentary and guesses.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "quality-sample",
+      "title": "Run a outbound business development and lead research Quality Sample That Changes the Process",
+      "description": "A weekly sample for outbound business development and lead research that checks evidence, not just output volume.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "handoff-record",
+      "title": "Make the outbound business development and lead research Handoff Survive a Second Reviewer",
+      "description": "A handoff standard for outbound business development and lead research that lets another person continue without asking the preparer.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "access-boundary",
+      "title": "Set the outbound business development and lead research Access Boundary Before Day One",
+      "description": "A staged access plan for outbound business development and lead research work, from read-only shadowing to named production permissions.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "escalation-log",
+      "title": "Keep a outbound business development and lead research Escalation Log That Moves Work",
+      "description": "An escalation log for outbound business development and lead research that records impact, owner, response time, and the decision needed.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "metric-definition",
+      "title": "Define outbound business development and lead research Metrics Before You Report Them",
+      "description": "A metric definition sheet for outbound business development and lead research that keeps counts, periods, and exclusions visible.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "onboarding-plan",
+      "title": "Onboard a outbound business development and lead research Assistant in Small, Checkable Steps",
+      "description": "A first-month onboarding plan for outbound business development and lead research that starts with one workflow and adds responsibility only after review.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "audit-pack",
+      "title": "Build a outbound business development and lead research Audit Pack Before Anyone Asks",
+      "description": "An audit-ready evidence pack for outbound business development and lead research with the records, owners, and versions in one place.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "weekly-brief",
+      "title": "Write a Weekly outbound business development and lead research Owner Brief From Queue Evidence",
+      "description": "A one-page outbound business development and lead research brief that leads with decisions, aging, and the risk building for next week.",
+      "category": "Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "target-account-research-brief",
+      "title": "A Target Account Research Brief With Evidence",
+      "description": "A structured brief for public facts, fit signals, contacts, and open questions.",
+      "category": "Account research",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "prospecting-list-hygiene",
+      "title": "Prospecting List Hygiene for Business Development",
+      "description": "A cleanup routine for duplicates, exclusions, ownership, and stale contacts.",
+      "category": "List operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "qualification-call-notes",
+      "title": "Qualification Call Notes That Sales Can Trust",
+      "description": "A note structure for needs, authority, timing, objections, and next steps.",
+      "category": "Meeting handoffs",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "crm-pipeline-hygiene",
+      "title": "CRM Pipeline Hygiene Without Rewriting History",
+      "description": "A cleanup method for stale stages, missing next actions, and duplicate accounts.",
+      "category": "CRM records",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "event-follow-up-queue",
+      "title": "An Event Follow-Up Queue That Survives the Week",
+      "description": "A post-event workflow for contact capture, segmentation, and timely follow-up.",
+      "category": "Event operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "partner-list-qualification",
+      "title": "Qualify Partner Lists Before Outreach",
+      "description": "A review of partner fit, contact quality, and approved outreach paths.",
+      "category": "Partner operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "proposal-draft-preparation",
+      "title": "Prepare Proposal Drafts Without Inventing Commitments",
+      "description": "A preparation boundary for scope, pricing inputs, and approved language.",
+      "category": "Proposal support",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "inbound-lead-triage",
+      "title": "Inbound Lead Triage With a Clear Owner",
+      "description": "A routing routine for fit, urgency, source, and next action.",
+      "category": "Lead operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "pipeline-report-definitions",
+      "title": "Pipeline Report Definitions Your Team Can Defend",
+      "description": "A definition set for stage, date, owner, and exclusion so reports stay comparable.",
+      "category": "Pipeline records",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "bd-experiment-register",
+      "title": "A Business Development Experiment Register",
+      "description": "A simple record for hypothesis, audience, message, and outcome.",
+      "category": "Quality review",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "bdr-role-boundaries",
+      "title": "Where a BDR Virtual Assistant Should Stop",
+      "description": "The line between research, outreach support, and accountable commercial judgment.",
+      "category": "Role design",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "onboarding-bdr-assistant",
+      "title": "Onboarding a BDR Assistant Into Your Pipeline",
+      "description": "A first-month plan for account access, messaging approval, and supervised outreach.",
+      "category": "Team enablement",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "inbound-partnership-request-triage",
+      "title": "Triage Inbound Partnership Requests With Decision Rules",
+      "description": "A practical guide to inbound partnership request triage with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Partnership systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "account-trigger-verification-queue",
+      "title": "Run an Account Trigger Verification Queue",
+      "description": "A practical guide to account trigger verification with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Market intelligence",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "multithreaded-account-contact-plan",
+      "title": "Build a Governed Multithreaded Account Contact Plan",
+      "description": "A practical guide to multithreaded account contact planning with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Account strategy",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "conference-lead-custody-workflow",
+      "title": "Preserve Context in a Conference Lead Custody Workflow",
+      "description": "A practical guide to conference lead custody with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Meeting systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "channel-conflict-escalation-register",
+      "title": "Create a Channel Conflict Escalation Register",
+      "description": "A practical guide to channel conflict escalation with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Partnership systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "buyer-question-intelligence-loop",
+      "title": "Turn Buyer Questions Into an Evidence-Led Intelligence Loop",
+      "description": "A practical guide to buyer question intelligence with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Market intelligence",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "mutual-action-plan-change-control",
+      "title": "Apply Change Control to Mutual Action Plans",
+      "description": "A practical guide to mutual action plan change control with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "CRM operations",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "executive-sponsor-briefing-boundary",
+      "title": "Set Boundaries for Executive Sponsor Briefings",
+      "description": "A practical guide to executive sponsor briefing governance with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Account strategy",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "partner-referral-attribution-ledger",
+      "title": "Maintain a Partner Referral Attribution Ledger",
+      "description": "A practical guide to partner referral attribution with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Partnership systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "lost-opportunity-evidence-review",
+      "title": "Conduct a Lost Opportunity Evidence Review",
+      "description": "A practical guide to lost opportunity evidence review with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "CRM operations",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "market-brief-expiration-policy",
+      "title": "Give Every Market Brief an Expiration Policy",
+      "description": "A practical guide to market brief expiration with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Market intelligence",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "business-development-experiment-register",
+      "title": "Govern Business Development Experiments With a Decision Register",
+      "description": "A practical guide to business development experiment governance with visible evidence, decision rights, exception routing, and quality review.",
+      "category": "Role design",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "target-account-criteria-version-control",
+      "title": "Version Target Account Criteria Before Research Begins",
+      "description": "A practical target account criteria version control control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Account strategy",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "market-signal-source-register",
+      "title": "Build a Source Register for Market Signals",
+      "description": "A practical market signal source stewardship control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Market intelligence",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "partner-fit-evidence-matrix",
+      "title": "Create a Partner Fit Evidence Matrix",
+      "description": "A practical partner fit evidence control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Partnership systems",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "account-relationship-map-stewardship",
+      "title": "Maintain Account Relationship Maps With Provenance",
+      "description": "A practical account relationship map provenance control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Account strategy",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "opportunity-hypothesis-review-gate",
+      "title": "Use a Review Gate for Opportunity Hypotheses",
+      "description": "A practical opportunity hypothesis review control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Market intelligence",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "outreach-claim-approval-register",
+      "title": "Keep an Approval Register for Outreach Claims",
+      "description": "A practical outreach claim approval control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Role design",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "referral-introduction-custody",
+      "title": "Preserve Context Through a Referral Introduction",
+      "description": "A practical referral introduction custody control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Partnership systems",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "discovery-meeting-brief-evidence",
+      "title": "Prepare Discovery Meeting Briefs From Verified Evidence",
+      "description": "A practical discovery meeting brief evidence control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Meeting systems",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "crm-opportunity-stage-evidence",
+      "title": "Define Evidence for Every Opportunity Stage",
+      "description": "A practical opportunity stage evidence control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "CRM operations",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "partnership-commitment-follow-up-log",
+      "title": "Track Partnership Commitments to Verified Closure",
+      "description": "A practical partnership commitment follow-up control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Partnership systems",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "competitor-comparison-source-freshness",
+      "title": "Review Competitor Comparison Sources for Freshness",
+      "description": "A practical competitor comparison source freshness control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Market intelligence",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "business-development-sales-handoff",
+      "title": "Design an Accepted Handoff From Business Development to Sales",
+      "description": "A practical business development handoff acceptance control for business development teams that keeps sources, ownership, exceptions, and review evidence visible.",
+      "category": "Role design",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "market-research-source-log",
+      "title": "Create a market research source log",
+      "description": "A practical guide to create a market research source log for founders, partnership leaders, and growth teams.",
+      "category": "Market intelligence",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "business-development-crm-review",
+      "title": "Run a business development CRM review",
+      "description": "A practical guide to run a business development crm review for founders, partnership leaders, and growth teams.",
+      "category": "Account strategy",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "partnership-research-workflow",
+      "title": "A practical partnership research workflow",
+      "description": "A practical guide to a practical partnership research workflow for founders, partnership leaders, and growth teams.",
+      "category": "Partnership systems",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "account-mapping-brief",
+      "title": "Build an account mapping brief",
+      "description": "A practical guide to build an account mapping brief for founders, partnership leaders, and growth teams.",
+      "category": "Account strategy",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "business-development-leader-vs-bdr-va",
+      "title": "Business development leader vs BDR VA",
+      "description": "A practical guide to business development leader vs bdr va for founders, partnership leaders, and growth teams.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service5.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "how-should-a-bdr-team-size-coverage-for-a-new-market-segment",
+      "title": "How should a BDR team size coverage for a new market segment?",
+      "description": "A coverage-sizing model that estimates addressable accounts, touches per tier, and the hours hidden in research and review.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-should-a-bdr-team-size-coverage-for-a-new-market-segment.webp"
+    },
+    {
+      "slug": "what-should-a-bdr-team-track-when-handoffs-to-account-executives-stall",
+      "title": "What should a BDR team track when handoffs to account executives stall?",
+      "description": "A handoff scorecard that separates missing context from missing interest and measures time, rework, and acknowledgement stage by stage.",
+      "category": "Outreach operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/what-should-a-bdr-team-track-when-handoffs-to-account-executives-stall.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-evaluate-a-purchased-contact-database",
+      "title": "How should a BDR team evaluate a purchased contact database?",
+      "description": "A vendor evaluation method that tests coverage, accuracy, permission, and deliverability with a bounded pilot before a long contract.",
+      "category": "Market intelligence",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-should-a-bdr-team-evaluate-a-purchased-contact-database.webp"
+    },
+    {
+      "slug": "when-should-a-bdr-team-use-a-round-robin-sender-model",
+      "title": "When should a BDR team use a round-robin sender model?",
+      "description": "A decision guide for rotating inbound leads and outbound accounts, including fairness measures, exceptions, and the accountability gaps rotations create.",
+      "category": "Role design",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/when-should-a-bdr-team-use-a-round-robin-sender-model.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-measure-the-cost-of-a-bad-fit-meeting",
+      "title": "How should a BDR team measure the cost of a bad-fit meeting?",
+      "description": "A cost model for poorly qualified meetings that counts preparation, attendance, follow-up, and the opportunity cost of the time slot.",
+      "category": "Account strategy",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-should-a-bdr-team-measure-the-cost-of-a-bad-fit-meeting.webp"
+    },
+    {
+      "slug": "what-makes-a-follow-up-sequence-audit-defensible",
+      "title": "What makes a follow-up sequence audit defensible?",
+      "description": "The population, policy checks, evidence trail, and review habits that make a follow-up sequence audit repeatable rather than personal.",
+      "category": "Outreach operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/what-makes-a-follow-up-sequence-audit-defensible.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-document-buyer-objections-across-segments",
+      "title": "How should a BDR team document buyer objections across segments?",
+      "description": "A documentation method that keeps the buyer's exact wording, separates objection from condition, and compares patterns without overgeneralizing.",
+      "category": "Market intelligence",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-should-a-bdr-team-document-buyer-objections-across-segments.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-decide-which-inbound-channels-deserve-dedicated-coverage",
+      "title": "How should a BDR team decide which inbound channels deserve dedicated coverage?",
+      "description": "A coverage decision framework that compares inbound channels by buyer intent, response window, and the cost of leaving messages unanswered.",
+      "category": "Outreach operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-should-a-bdr-team-decide-which-inbound-channels-deserve-dedicated-coverage.webp"
+    },
+    {
+      "slug": "what-makes-a-source-ledger-trustworthy-for-recurring-account-research",
+      "title": "What makes a source ledger trustworthy for recurring account research?",
+      "description": "A source ledger design that records provenance, dates, and review status so recurring account research stays verifiable as it is reused.",
+      "category": "Market intelligence",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/what-makes-a-source-ledger-trustworthy-for-recurring-account-research.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-test-whether-intent-data-improves-prioritization",
+      "title": "How should a BDR team test whether intent data improves prioritization?",
+      "description": "A test design for intent data that compares prioritization with and without the signal and measures conversation quality rather than lead volume.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-should-a-bdr-team-test-whether-intent-data-improves-prioritization.webp"
+    },
+    {
+      "slug": "when-should-a-bdr-team-stop-qualifying-a-low-fit-account",
+      "title": "When should a BDR team stop qualifying a low-fit account?",
+      "description": "A disqualification framework that distinguishes poor fit from poor timing and sets a defensible point to stop spending qualification time.",
+      "category": "Account strategy",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/when-should-a-bdr-team-stop-qualifying-a-low-fit-account.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-design-a-fair-productivity-baseline-for-remote-researchers",
+      "title": "How should a BDR team design a fair productivity baseline for remote researchers?",
+      "description": "A productivity baseline that measures completed, quality-checked research work instead of activity counts, with safeguards for fairness and context.",
+      "category": "Role design",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-should-a-bdr-team-design-a-fair-productivity-baseline-for-remote-researchers.webp"
+    },
+    {
+      "slug": "what-should-a-bdr-team-measure-when-outbound-reply-quality-falls",
+      "title": "What should a BDR team measure when outbound reply quality falls?",
+      "description": "A diagnostic set of measures for a drop in outbound reply quality, separating list, message, sender, and market causes before changing the sequence.",
+      "category": "Outreach operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/what-should-a-bdr-team-measure-when-outbound-reply-quality-falls.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-govern-ai-assisted-research-without-losing-accountability",
+      "title": "How should a BDR team govern AI-assisted research without losing accountability?",
+      "description": "A governance model for AI-assisted account research that keeps source verification, human review, and data boundaries explicit.",
+      "category": "Role design",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-should-a-bdr-team-govern-ai-assisted-research-without-losing-accountability.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-set-an-evidence-bar-for-inbound-lead-scoring",
+      "title": "How should a BDR team set an evidence bar for inbound lead scoring?",
+      "description": "An evidence standard for inbound lead scoring that separates observable buyer facts from assumptions and tests the score against real outcomes.",
+      "category": "Outreach operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-should-a-bdr-team-set-an-evidence-bar-for-inbound-lead-scoring.webp"
+    },
+    {
+      "slug": "what-does-a-defensible-call-recording-review-process-require",
+      "title": "What does a defensible call recording review process require?",
+      "description": "The consent, access, retention, and sampling controls a BDR team needs before it reviews recorded sales calls for quality.",
+      "category": "Quality review",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/what-does-a-defensible-call-recording-review-process-require.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-measure-personalization-quality-without-surveilling-buyers",
+      "title": "How should a BDR team measure personalization quality without surveilling buyers?",
+      "description": "A personalization quality method built on public evidence and message review rather than covert tracking of individual buyers.",
+      "category": "Market intelligence",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-should-a-bdr-team-measure-personalization-quality-without-surveilling-buyers.webp"
+    },
+    {
+      "slug": "when-does-a-partner-sourced-lead-need-a-separate-attribution-record",
+      "title": "When does a partner-sourced lead need a separate attribution record?",
+      "description": "A decision guide for recording partner-sourced leads so both organizations can see the source, the consent, and the next step without duplicating the buyer's experience.",
+      "category": "Partnership systems",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/when-does-a-partner-sourced-lead-need-a-separate-attribution-record.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-document-a-closed-lost-reason-that-survives-re-engagement",
+      "title": "How should a BDR team document a closed-lost reason that survives re-engagement?",
+      "description": "A closed-lost documentation standard that preserves the buyer's reason, the evidence behind it, and the trigger that would justify a later conversation.",
+      "category": "Pipeline strategy",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-should-a-bdr-team-document-a-closed-lost-reason-that-survives-re-engagement.webp"
+    },
+    {
+      "slug": "what-capacity-signals-should-trigger-a-queue-redesign-for-a-bdr-team",
+      "title": "What capacity signals should trigger a queue redesign for a BDR team?",
+      "description": "The workload, quality, and response-time signals that show a BDR queue has outgrown its current rules and needs a deliberate redesign.",
+      "category": "Role design",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/what-capacity-signals-should-trigger-a-queue-redesign-for-a-bdr-team.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-audit-inbound-chat-transcripts-for-follow-up-quality",
+      "title": "How should a BDR team audit inbound chat transcripts for follow-up quality?",
+      "description": "A transcript audit method that checks whether a chat conversation produced a usable record, a clear owner, and a follow-up the buyer would recognize.",
+      "category": "Outreach operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-should-a-bdr-team-audit-inbound-chat-transcripts-for-follow-up-quality.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-measure-reply-quality-beyond-reply-rate",
+      "title": "How should a BDR team measure reply quality beyond reply rate?",
+      "description": "A reply-quality method that classifies responses, scores their substance, and connects them to real movement without overclaiming.",
+      "category": "Outreach operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-should-a-bdr-team-measure-reply-quality-beyond-reply-rate.webp"
+    },
+    {
+      "slug": "what-belongs-in-an-account-research-audit-trail",
+      "title": "What belongs in an account research audit trail?",
+      "description": "A field-level standard for account research records, with provenance, versioning, access rules, and a review test.",
+      "category": "Market intelligence",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/what-belongs-in-an-account-research-audit-trail.webp"
+    },
+    {
+      "slug": "when-should-a-bdr-team-retire-a-market-segment",
+      "title": "When should a BDR team retire a market segment?",
+      "description": "A retirement test for market segments, with demand signals, cost-to-serve measures, and a transition plan that preserves learning.",
+      "category": "Account strategy",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/when-should-a-bdr-team-retire-a-market-segment.webp"
+    },
+    {
+      "slug": "how-much-pipeline-should-a-bdr-assistant-be-accountable-for",
+      "title": "How much pipeline should a BDR assistant be accountable for?",
+      "description": "A role-design analysis that separates owned pipeline, influenced pipeline, and support work so an assistant is measured fairly.",
+      "category": "Role design",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-much-pipeline-should-a-bdr-assistant-be-accountable-for.webp"
+    },
+    {
+      "slug": "what-makes-a-meeting-handoff-audit-repeatable",
+      "title": "What makes a meeting handoff audit repeatable?",
+      "description": "A repeatable audit design for meeting handoffs, with stage definitions, evidence fields, calibration, and a repair loop.",
+      "category": "Account strategy",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/what-makes-a-meeting-handoff-audit-repeatable.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-document-competitive-displacement-risk",
+      "title": "How should a BDR team document competitive displacement risk?",
+      "description": "A documentation standard for competitive displacement risk, with evidence levels, account signals, and a review cadence.",
+      "category": "Market intelligence",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-should-a-bdr-team-document-competitive-displacement-risk.webp"
+    },
+    {
+      "slug": "what-does-a-defensible-outbound-suppression-policy-require",
+      "title": "What does a defensible outbound suppression policy require?",
+      "description": "A suppression policy checklist with a single source of truth, intake capture, cross-tool propagation, audit evidence, and honest limits.",
+      "category": "Outreach operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/what-does-a-defensible-outbound-suppression-policy-require.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-team-measure-time-to-first-qualified-conversation",
+      "title": "How should a BDR team measure time to first qualified conversation?",
+      "description": "A stage-based method for measuring the delay between lead arrival and the first qualified conversation, with clear definitions and limits.",
+      "category": "Account strategy",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-should-a-bdr-team-measure-time-to-first-qualified-conversation.webp"
+    },
+    {
+      "slug": "what-evidence-makes-a-prospect-list-defensible-under-review",
+      "title": "What evidence makes a prospect list defensible under review?",
+      "description": "A field-level evidence standard for prospect lists, with source rules, review tests, and honest limits.",
+      "category": "Market intelligence",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/what-evidence-makes-a-prospect-list-defensible-under-review.webp"
+    },
+    {
+      "slug": "how-much-context-does-a-partner-introduction-need-to-survive-handoff",
+      "title": "How much context does a partner introduction need to survive handoff?",
+      "description": "A handoff study of partner introductions, with the minimum context fields, a cold-read test, and clear limits.",
+      "category": "Partnership systems",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-much-context-does-a-partner-introduction-need-to-survive-handoff.webp"
+    },
+    {
+      "slug": "when-does-a-shared-inbox-stop-scaling-as-a-bdr-intake-channel",
+      "title": "When does a shared inbox stop scaling as a BDR intake channel?",
+      "description": "A diagnostic for shared inbox intake, with volume signals, routing tests, and a staged transition to a tracked queue.",
+      "category": "Role design",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/when-does-a-shared-inbox-stop-scaling-as-a-bdr-intake-channel.webp"
+    },
+    {
+      "slug": "can-a-stopped-sequence-be-recovered-without-resetting-the-account",
+      "title": "Can a stopped sequence be recovered without resetting the account?",
+      "description": "A recovery test for stopped sequences, with re-entry conditions, evidence checks, and a clear rule for when to start over.",
+      "category": "Account strategy",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/can-a-stopped-sequence-be-recovered-without-resetting-the-account.webp"
+    },
+    {
+      "slug": "how-should-a-bdr-manager-audit-call-notes-for-decision-quality",
+      "title": "How should a BDR manager audit call notes for decision quality?",
+      "description": "An audit method for call notes, with decision criteria, sample design, calibration, and a realistic view of limits.",
+      "category": "Market intelligence",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-should-a-bdr-manager-audit-call-notes-for-decision-quality.webp"
+    },
+    {
+      "slug": "what-capacity-signal-should-trigger-a-new-bdr-hire-or-assistant",
+      "title": "What capacity signal should trigger a new BDR hire or assistant?",
+      "description": "A capacity diagnostic that separates temporary backlog from a persistent gap, with thresholds, role scoping, and limits.",
+      "category": "Role design",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/what-capacity-signal-should-trigger-a-new-bdr-hire-or-assistant.webp"
+    },
+    {
+      "slug": "how-much-research-time-does-a-qualified-account-require",
+      "title": "How much research time does a qualified account require?",
+      "description": "A time-study protocol for measuring the preparation behind one qualified account, with categories, sampling, and honest limits.",
+      "category": "Market intelligence",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-much-research-time-does-a-qualified-account-require.webp"
+    },
+    {
+      "slug": "what-makes-a-bdr-handoff-note-reliable-under-review",
+      "title": "What makes a BDR handoff note reliable under review?",
+      "description": "A review protocol for handoff notes, built around five fields a second reviewer can verify without asking the original author.",
+      "category": "Role design",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/what-makes-a-bdr-handoff-note-reliable-under-review.webp"
+    },
+    {
+      "slug": "where-do-follow-ups-stall-in-a-shared-bdr-queue",
+      "title": "Where do follow-ups stall in a shared BDR queue?",
+      "description": "A stage-timestamp method for finding the handoff where follow-ups lose time, with business-hour rules and clear limits.",
+      "category": "Account strategy",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/where-do-follow-ups-stall-in-a-shared-bdr-queue.webp"
+    },
+    {
+      "slug": "how-should-a-growth-team-measure-outreach-personalization-quality",
+      "title": "How should a growth team measure outreach personalization quality?",
+      "description": "A rubric-based method for reviewing personalization quality with calibrated reviewers, defined dimensions, and honest limits.",
+      "category": "Partnership systems",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-should-a-growth-team-measure-outreach-personalization-quality.webp"
+    },
+    {
+      "slug": "what-belongs-in-a-partnership-research-source-log",
+      "title": "What belongs in a partnership research source log?",
+      "description": "A field guide for a partnership source log that keeps claims, dates, access notes, and review windows usable.",
+      "category": "Partnership systems",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/what-belongs-in-a-partnership-research-source-log.webp"
+    },
+    {
+      "slug": "can-a-crm-stage-change-be-traced-to-its-supporting-evidence",
+      "title": "Can a CRM stage change be traced to its supporting evidence?",
+      "description": "A traceability test for stage changes, with a reconstruction method, evidence chain fields, and a clear statement of limits.",
+      "category": "Account strategy",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/can-a-crm-stage-change-be-traced-to-its-supporting-evidence.webp"
+    },
+    {
+      "slug": "what-happens-to-pipeline-coverage-when-one-bdr-is-out-for-a-week",
+      "title": "What happens to pipeline coverage when one BDR is out for a week?",
+      "description": "A continuity analysis for shared BDR queues, with coverage definitions, reassignment tests, and a realistic planning view.",
+      "category": "Role design",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/what-happens-to-pipeline-coverage-when-one-bdr-is-out-for-a-week.webp"
+    },
+    {
+      "slug": "how-complete-is-the-evidence-in-the-market-research-record",
+      "title": "How complete is the evidence in the market research record?",
+      "description": "A repeatable measurement protocol for market research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-complete-is-the-evidence-in-the-market-research-record.webp"
+    },
+    {
+      "slug": "where-does-delay-accumulate-in-the-account-mapping-handoff",
+      "title": "Where does delay accumulate in the account mapping handoff?",
+      "description": "A repeatable measurement protocol for account mapping in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Timing",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/where-does-delay-accumulate-in-the-account-mapping-handoff.webp"
+    },
+    {
+      "slug": "how-old-are-the-exceptions-in-the-partnership-research-queue",
+      "title": "How old are the exceptions in the partnership research queue?",
+      "description": "A repeatable measurement protocol for partnership research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Queue Health",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-old-are-the-exceptions-in-the-partnership-research-queue.webp"
+    },
+    {
+      "slug": "what-happens-to-outreach-operations-coverage-when-the-owner-is-away",
+      "title": "What happens to outreach operations coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for outreach operations in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Capacity",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/what-happens-to-outreach-operations-coverage-when-the-owner-is-away.webp"
+    },
+    {
+      "slug": "can-the-crm-opportunity-report-be-reproduced-from-its-sources",
+      "title": "Can the crm opportunity report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for crm opportunity in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Measurement",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/can-the-crm-opportunity-report-be-reproduced-from-its-sources.webp"
+    },
+    {
+      "slug": "do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day",
+      "title": "Do exceptions in the meeting coordination queue clear within one business day?",
+      "description": "A repeatable measurement protocol for meeting coordination in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Clearance",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day.webp"
+    },
+    {
+      "slug": "how-stable-is-market-research-queue-coverage-when-one-specialist-is-away",
+      "title": "How stable is market research queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for market research queue in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Coverage",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-stable-is-market-research-queue-coverage-when-one-specialist-is-away.webp"
+    },
+    {
+      "slug": "how-complete-is-the-evidence-in-the-market-research-record",
+      "title": "How complete is the evidence in the market research record?",
+      "description": "A repeatable measurement protocol for market research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-complete-is-the-evidence-in-the-market-research-record.webp"
+    },
+    {
+      "slug": "where-does-delay-accumulate-in-the-account-mapping-handoff",
+      "title": "Where does delay accumulate in the account mapping handoff?",
+      "description": "A repeatable measurement protocol for account mapping in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Timing",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/where-does-delay-accumulate-in-the-account-mapping-handoff.webp"
+    },
+    {
+      "slug": "how-old-are-the-exceptions-in-the-partnership-research-queue",
+      "title": "How old are the exceptions in the partnership research queue?",
+      "description": "A repeatable measurement protocol for partnership research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Queue Health",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-old-are-the-exceptions-in-the-partnership-research-queue.webp"
+    },
+    {
+      "slug": "what-happens-to-outreach-operations-coverage-when-the-owner-is-away",
+      "title": "What happens to outreach operations coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for outreach operations in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Capacity",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/what-happens-to-outreach-operations-coverage-when-the-owner-is-away.webp"
+    },
+    {
+      "slug": "can-the-crm-opportunity-report-be-reproduced-from-its-sources",
+      "title": "Can the crm opportunity report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for crm opportunity in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Measurement",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/can-the-crm-opportunity-report-be-reproduced-from-its-sources.webp"
+    },
+    {
+      "slug": "do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day",
+      "title": "Do exceptions in the meeting coordination queue clear within one business day?",
+      "description": "A repeatable measurement protocol for meeting coordination in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Clearance",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day.webp"
+    },
+    {
+      "slug": "how-stable-is-market-research-queue-coverage-when-one-specialist-is-away",
+      "title": "How stable is market research queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for market research queue in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Coverage",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-stable-is-market-research-queue-coverage-when-one-specialist-is-away.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-how-complete-is-the-evidence-in-the-market-research-record-2026-11-03",
+      "title": "How complete is the evidence in the market research record?",
+      "description": "A repeatable measurement protocol for market research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-how-complete-is-the-evidence-in-the-market-research-record-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-where-does-delay-accumulate-in-the-account-mapping-handoff-2026-11-03",
+      "title": "Where does delay accumulate in the account mapping handoff?",
+      "description": "A repeatable measurement protocol for account mapping in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Timing",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-where-does-delay-accumulate-in-the-account-mapping-handoff-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-how-old-are-the-exceptions-in-the-partnership-research-queue-2026-11-03",
+      "title": "How old are the exceptions in the partnership research queue?",
+      "description": "A repeatable measurement protocol for partnership research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Queue Health",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-how-old-are-the-exceptions-in-the-partnership-research-queue-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-what-happens-to-outreach-operations-coverage-when-the-owner-is-away-2026-11-03",
+      "title": "What happens to outreach operations coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for outreach operations in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Capacity",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-what-happens-to-outreach-operations-coverage-when-the-owner-is-away-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-can-the-crm-opportunity-report-be-reproduced-from-its-sources-2026-11-03",
+      "title": "Can the crm opportunity report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for crm opportunity in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Measurement",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-can-the-crm-opportunity-report-be-reproduced-from-its-sources-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day-2026-11-03",
+      "title": "Do exceptions in the meeting coordination queue clear within one business day?",
+      "description": "A repeatable measurement protocol for meeting coordination in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Clearance",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-do-exceptions-in-the-meeting-coordination-queue-clear-within-one-business-day-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-how-stable-is-market-research-queue-coverage-when-one-specialist-is-away-2026-11-03",
+      "title": "How stable is market research queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for market research queue in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Coverage",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/businessdevelopmentrep-how-stable-is-market-research-queue-coverage-when-one-specialist-is-away-2026-11-03.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-lead-routing-latency-study-2026-11-02",
+      "title": "How long do routed leads wait for first contact?",
+      "description": "A bounded Business Development Rep study of lead routing latency, with a defined population, a repeatable measure, and explicit limits on what the record can prove.",
+      "category": "Lead Routing",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-lead-routing-latency-study-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-account-brief-completeness-study-2026-11-02",
+      "title": "Which account briefs arrive incomplete?",
+      "description": "A bounded Business Development Rep study of account brief completeness, with a defined population, a repeatable measure, and explicit limits on what the record can prove.",
+      "category": "Account Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-account-brief-completeness-study-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-meeting-followup-delay-study-2026-11-02",
+      "title": "Where do meeting follow-ups lose time?",
+      "description": "A bounded Business Development Rep study of meeting follow-up delay, with a defined population, a repeatable measure, and explicit limits on what the record can prove.",
+      "category": "Meeting Operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-meeting-followup-delay-study-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-sequence-exit-decision-study-2026-11-02",
+      "title": "When do sequences end without a recorded decision?",
+      "description": "A bounded Business Development Rep study of sequence exit decision, with a defined population, a repeatable measure, and explicit limits on what the record can prove.",
+      "category": "Sequence Governance",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-sequence-exit-decision-study-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-pipeline-handoff-delay-study-2026-11-02",
+      "title": "Where do pipeline handoffs create rework?",
+      "description": "A bounded Business Development Rep study of pipeline handoff delay, with a defined population, a repeatable measure, and explicit limits on what the record can prove.",
+      "category": "Pipeline Operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/businessdevelopmentrep-pipeline-handoff-delay-study-2026-11-02.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-how-complete-is-the-evidence-in-the-market-research-record-2026-11-01",
+      "title": "How complete is the evidence in the market research record?",
+      "description": "A repeatable measurement protocol for market research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-how-complete-is-the-evidence-in-the-market-research-record-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-where-does-delay-accumulate-in-the-account-mapping-handoff-2026-11-01",
+      "title": "Where does delay accumulate in the account mapping handoff?",
+      "description": "A repeatable measurement protocol for account mapping in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Timing",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-where-does-delay-accumulate-in-the-account-mapping-handoff-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-how-old-are-the-exceptions-in-the-partnership-research-queue-2026-11-01",
+      "title": "How old are the exceptions in the partnership research queue?",
+      "description": "A repeatable measurement protocol for partnership research in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Queue Health",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-how-old-are-the-exceptions-in-the-partnership-research-queue-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-what-happens-to-outreach-operations-coverage-when-the-owner-is-away-2026-11-01",
+      "title": "What happens to outreach operations coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for outreach operations in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Capacity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-what-happens-to-outreach-operations-coverage-when-the-owner-is-away-2026-11-01.webp"
+    },
+    {
+      "slug": "businessdevelopmentrep-can-the-crm-opportunity-report-be-reproduced-from-its-sources-2026-11-01",
+      "title": "Can the crm opportunity report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for crm opportunity in business development teams, with definitions, sampling, limits, and reporting Prepared for the Business Development Rep record at businessdevelopmentrep.com.",
+      "category": "Measurement",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/businessdevelopmentrep-can-the-crm-opportunity-report-be-reproduced-from-its-sources-2026-11-01.webp"
+    },
+    {
+      "slug": "sequence-exit-criteria-study-oct28",
+      "title": "When Should an Outbound Sequence Stop?",
+      "description": "A protocol for testing whether sequence exit rules fire at the reply, role change, opt-out, or account mismatch they were meant to catch.",
+      "category": "Account research",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "lead-source-lineage-study-oct28",
+      "title": "Can Every Lead List Entry Be Traced to a Source?",
+      "description": "A lineage review that checks whether each list entry has a dated source, a collection method, and an accountable owner.",
+      "category": "Account research",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "account-tier-agreement-study-oct28",
+      "title": "Do Reviewers Agree on Account Tier?",
+      "description": "A protocol for measuring whether two reviewers assign the same tier to the same account using a written fit model.",
+      "category": "Account research",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "reply-intent-classification-study-oct28",
+      "title": "How Often Do Reply Intents Get Misrouted?",
+      "description": "A review protocol for checking whether positive replies, objections, referrals, and opt-outs reach the right owner with a usable response clock.",
+      "category": "Outreach operations",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "suppression-propagation-study-oct28",
+      "title": "How Quickly Do Opt-Outs Reach Every Outbound Tool?",
+      "description": "A protocol for measuring the gap between an opt-out event and suppression in each sending system.",
+      "category": "Outreach operations",
+      "date": "2026-10-28",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "priority-agreement-study",
+      "title": "Do Reviewers Agree on Work Priority in outbound business development and lead research?",
+      "description": "A protocol testing whether independent reviewers assign the same priority band to the same outbound business development and lead research item.",
+      "category": "Account research",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "service-clock-start-study",
+      "title": "When Does the Service Clock Start in outbound business development and lead research?",
+      "description": "A protocol measuring the gap between the defined clock event and the timestamp recorded in outbound business development and lead research.",
+      "category": "Account research",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "dependency-delay-study",
+      "title": "Where Do Dependencies Add Delay in outbound business development and lead research?",
+      "description": "A protocol separating upstream wait, owner wait, and rework in outbound business development and lead research dependency chains.",
+      "category": "Account research",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "rework-share-study",
+      "title": "How Much Work Is Rework in outbound business development and lead research?",
+      "description": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in outbound business development and lead research.",
+      "category": "Account research",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "promise-accuracy-study",
+      "title": "How Often Do Customer Promises Hold in outbound business development and lead research?",
+      "description": "A protocol comparing the promise date, the verified completion, and the reason for any gap in outbound business development and lead research.",
+      "category": "Account research",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "triage-accuracy",
+      "title": "How Consistently Are Requests Triaged in outbound business development and lead research?",
+      "description": "A protocol for measuring whether independent reviewers assign the same triage class and owner to the same outbound business development and lead research request.",
+      "category": "Account research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "capacity-variance",
+      "title": "Where Does Capacity Go in outbound business development and lead research?",
+      "description": "A protocol separating planned work, exceptions, rework, and waiting in a outbound business development and lead research team's available hours.",
+      "category": "Account research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "completeness-return",
+      "title": "Why Do Files Come Back Incomplete in outbound business development and lead research?",
+      "description": "The prospect research and outreach queue in outbound business development and lead research usually fails at the handoff, not at the first task. For the \"sources\" section, the BDR support specialist should capture the source, the version, the accountable sales manager, and the next review date in a prospect evidence record. If the item involves request to change pricing or commitments, route it to the sales manager and keep the exception reason attached so a later reviewer can see why the normal path did not apply.",
+      "category": "Account research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "threshold-compliance",
+      "title": "Are Approvals Routed at the Right Level in outbound business development and lead research?",
+      "description": "A protocol testing whether sampled outbound business development and lead research approvals used the level required by the written threshold.",
+      "category": "Account research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "change-adoption",
+      "title": "Did the Process Change Reach the Work in outbound business development and lead research?",
+      "description": "A protocol comparing records before and after a written outbound business development and lead research process change to see whether the new step was used.",
+      "category": "Account research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "intake-reliability",
+      "title": "How Complete Is the outbound business development and lead research Intake Record at First Review?",
+      "description": "A protocol for measuring whether outbound business development and lead research intake items carry the source, owner, and date needed before work begins.",
+      "category": "Evidence review",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "queue-aging",
+      "title": "Where Does outbound business development and lead research Queue Time Actually Go?",
+      "description": "A protocol separating owner wait, source wait, system delay, and rework in outbound business development and lead research queues.",
+      "category": "Evidence review",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "reviewer-agreement",
+      "title": "Do Reviewers Agree on outbound business development and lead research Exception Codes?",
+      "description": "A protocol testing whether independent reviewers assign the same exception reason to the same outbound business development and lead research record.",
+      "category": "Evidence review",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "access-removal",
+      "title": "How Long Does outbound business development and lead research Access Outlive the Assignment?",
+      "description": "A protocol measuring the gap between assignment end and access removal for outbound business development and lead research work.",
+      "category": "Evidence review",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "handoff-completeness",
+      "title": "Can a Second Reviewer Continue the Handoff?",
+      "description": "A protocol measuring whether outbound business development and lead research handoffs carry the source, state, owner, and next action.",
+      "category": "Evidence review",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "account-data-quality-review",
+      "title": "Account Data Quality in Business Development",
+      "description": "A review of account attributes, duplicate records, source dates, and the effect of stale data on targeting.",
+      "category": "Account research",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "qualification-note-completeness-review",
+      "title": "Qualification Note Completeness Review",
+      "description": "An analytical review of needs, authority, timing, and next-step evidence in qualification notes.",
+      "category": "Meeting handoffs",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "event-follow-up-decay-review",
+      "title": "Event Follow-Up Decay in Business Development",
+      "description": "A review of contact capture, segmentation, response timing, and the records that reveal where follow-up stops.",
+      "category": "Event operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "pipeline-stage-definition-review",
+      "title": "Pipeline Stage Definitions and Reporting Risk",
+      "description": "A structured review of stage definitions, exit criteria, and the exceptions that make pipeline reports incomparable.",
+      "category": "Pipeline records",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "partner-handoff-evidence-review",
+      "title": "Partner Handoff Evidence in Business Development",
+      "description": "A review of partner introductions, ownership, agreed next steps, and the evidence needed to keep a partnership from stalling.",
+      "category": "Partner operations",
+      "date": "2026-10-22",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "account-trigger-confirmation-latency-study",
+      "title": "Confirmation Latency for Account Market Triggers",
+      "description": "A reproducible protocol to measure how long reported account triggers take to reach a supported, rejected, conflicted, or expired state, with sampling, reviewer checks, evidence lineage, privacy controls, and explicit limitations.",
+      "category": "Market intelligence",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "partnership-request-routing-reliability-study",
+      "title": "Reliability of Inbound Partnership Request Routing",
+      "description": "A reproducible protocol to test whether independent reviewers assign the same bounded route to incoming partnership requests, with sampling, reviewer checks, evidence lineage, privacy controls, and explicit limitations.",
+      "category": "Partnership systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "conference-handoff-context-retention-study",
+      "title": "Context Retention in Conference Lead Handoffs",
+      "description": "A reproducible protocol to measure whether transferred event records preserve the interaction evidence and limits needed by the receiving owner, with sampling, reviewer checks, evidence lineage, privacy controls, and explicit limitations.",
+      "category": "Meeting systems",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "lost-opportunity-reason-evidence-study",
+      "title": "Evidence Coverage in Lost Opportunity Reasons",
+      "description": "A reproducible protocol to estimate how often recorded loss reasons are directly supported, explicitly unknown, or inferred from incomplete evidence, with sampling, reviewer checks, evidence lineage, privacy controls, and explicit limitations.",
+      "category": "CRM operations",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "mutual-action-plan-version-integrity-study",
+      "title": "Version Integrity of Mutual Action Plan Milestones",
+      "description": "A reproducible protocol to measure whether shared and internal milestone records agree on version, owner, date, dependency, and acknowledgment, with sampling, reviewer checks, evidence lineage, privacy controls, and explicit limitations.",
+      "category": "CRM operations",
+      "date": "2026-10-13",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "target-account-criteria-consistency-study",
+      "title": "Consistency of Target Account Criteria Application",
+      "description": "A reproducible protocol to measure whether reviewers reach the same inclusion decision when applying one versioned target-account definition, with evidence lineage, reviewer checks, privacy controls, and explicit limitations.",
+      "category": "Account strategy",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "market-signal-provenance-completeness-study",
+      "title": "Completeness of Provenance for Market Signals",
+      "description": "A reproducible protocol to measure whether saved market signals retain enough source, date, scope, and transformation evidence to be independently reconstructed, with evidence lineage, reviewer checks, privacy controls, and explicit limitations.",
+      "category": "Market intelligence",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "partner-fit-reviewer-agreement-study",
+      "title": "Reviewer Agreement in Partner Fit Assessment",
+      "description": "A reproducible protocol to test whether a written evidence matrix produces consistent fit-dimension codes across independent reviewers, with evidence lineage, reviewer checks, privacy controls, and explicit limitations.",
+      "category": "Partnership systems",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "relationship-map-freshness-reliability-study",
+      "title": "Freshness and Reliability of Account Relationship Maps",
+      "description": "A reproducible protocol to measure how often mapped roles and relationship edges remain supported when checked against dated evidence, with evidence lineage, reviewer checks, privacy controls, and explicit limitations.",
+      "category": "Account strategy",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "opportunity-handoff-acceptance-study",
+      "title": "Completeness and Acceptance of Opportunity Handoffs",
+      "description": "A reproducible protocol to measure whether handoffs contain required evidence and whether receiving owners accept them without clarification, with evidence lineage, reviewer checks, privacy controls, and explicit limitations.",
+      "category": "Role design",
+      "date": "2026-10-12",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "account-mapping-exception-pattern-study-8",
+      "title": "Account mapping: exception pattern study",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve account mapping workflows.",
+      "category": "Role design",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "outreach-operations-workflow-boundary-review-16",
+      "title": "Outreach operations support: workflow boundary review",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve outreach operations support workflows.",
+      "category": "Role design",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "market-research-source-quality-audit-7",
+      "title": "Market research support: source quality audit",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve market research support workflows.",
+      "category": "Partnership systems",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "partnership-research-review-consistency-report-15",
+      "title": "Partnership research: review consistency report",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve partnership research workflows.",
+      "category": "Partnership systems",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "meeting-coordination-workflow-boundary-review-6",
+      "title": "Meeting coordination: workflow boundary review",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve meeting coordination workflows.",
+      "category": "Account strategy",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "account-mapping-handoff-reliability-brief-14",
+      "title": "Account mapping: handoff reliability brief",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve account mapping workflows.",
+      "category": "Account strategy",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "crm-opportunity-support-review-consistency-report-5",
+      "title": "CRM opportunity support: review consistency report",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve crm opportunity support workflows.",
+      "category": "Market intelligence",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "market-research-exception-pattern-study-13",
+      "title": "Market research support: exception pattern study",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve market research support workflows.",
+      "category": "Market intelligence",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "outreach-operations-handoff-reliability-brief-4",
+      "title": "Outreach operations support: handoff reliability brief",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve outreach operations support workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "meeting-coordination-source-quality-audit-12",
+      "title": "Meeting coordination: source quality audit",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve meeting coordination workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "account-mapping-review-consistency-report-20",
+      "title": "Account mapping: review consistency report",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve account mapping workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "partnership-research-exception-pattern-study-3",
+      "title": "Partnership research: exception pattern study",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve partnership research workflows.",
+      "category": "Partnership systems",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "crm-opportunity-support-workflow-boundary-review-11",
+      "title": "CRM opportunity support: workflow boundary review",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve crm opportunity support workflows.",
+      "category": "Partnership systems",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "market-research-handoff-reliability-brief-19",
+      "title": "Market research support: handoff reliability brief",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve market research support workflows.",
+      "category": "Partnership systems",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "account-mapping-source-quality-audit-2",
+      "title": "Account mapping: source quality audit",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve account mapping workflows.",
+      "category": "Account strategy",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "outreach-operations-review-consistency-report-10",
+      "title": "Outreach operations support: review consistency report",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve outreach operations support workflows.",
+      "category": "Account strategy",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "meeting-coordination-exception-pattern-study-18",
+      "title": "Meeting coordination: exception pattern study",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve meeting coordination workflows.",
+      "category": "Account strategy",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "market-research-workflow-boundary-review-1",
+      "title": "Market research support: workflow boundary review",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve market research support workflows.",
+      "category": "Market intelligence",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "partnership-research-handoff-reliability-brief-9",
+      "title": "Partnership research: handoff reliability brief",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve partnership research workflows.",
+      "category": "Market intelligence",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "crm-opportunity-support-source-quality-audit-17",
+      "title": "CRM opportunity support: source quality audit",
+      "description": "A source-led brief on how founders, partnership leaders, and growth teams can define, inspect, and improve crm opportunity support workflows.",
+      "category": "Market intelligence",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service3.webp"
+    }
+  ],
+  "photos": {
+    "home": {
+      "alt": "Two colleagues engaging in a productive discussion while using a laptop in a contemporary office setting.",
+      "position": "50% 50%"
+    },
+    "services": {
+      "alt": "A business professional reviewing documents beside his laptop in a bright office.",
+      "position": "50% 50%"
+    },
+    "blog": {
+      "alt": "Businessman using smartphone in modern office, working with laptop.",
+      "position": "50% 35%"
+    },
+    "research": {
+      "alt": "A diverse group of professionals in a modern office setting, sharing documents and using laptops.",
+      "position": "50% 50%"
+    },
+    "service1": {
+      "alt": "Business professionals working on a laptop in an office setting, showcasing teamwork and technology.",
+      "position": "50% 50%"
+    },
+    "service2": {
+      "alt": "An office professional reviewing documents with clients at a desk.",
+      "position": "50% 50%"
+    },
+    "service3": {
+      "alt": "Two professionals engaged in a discussion at an office with a laptop and documents on the table.",
+      "position": "50% 50%"
+    },
+    "service4": {
+      "alt": "A group of professionals engaging in a business meeting with laptops in a modern office setting.",
+      "position": "50% 50%"
+    },
+    "service5": {
+      "alt": "A happy businesswoman multitasks with a laptop, phone, and notes at her office desk, managing her online store orders.",
+      "position": "50% 50%"
+    },
+    "service6": {
+      "alt": "Young businesswoman on phone, jotting notes at stylish office desk.",
+      "position": "50% 50%"
+    },
+    "service7": {
+      "alt": "Smiling businesswoman taking notes while on a phone call in a modern office setting.",
+      "position": "50% 50%"
+    },
+    "service8": {
+      "alt": "Professional working on a laptop with papers and phone on a wooden table indoors.",
+      "position": "50% 50%"
+    }
+  }
+}

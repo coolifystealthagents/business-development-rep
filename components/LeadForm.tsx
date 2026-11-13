@@ -1,28 +1,29 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import {submitAcrLead} from '../app/acr-submit';
 
 const personalDomains = new Set(['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'icloud.com', 'aol.com', 'proton.me', 'protonmail.com']);
 
 export function LeadForm({ source = 'contact-page' }: { source?: string }) {
-  const router = useRouter();
+  const submissionLock=useRef(false);const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const full = source.startsWith('contact-page');
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (busy) return;
-    setBusy(true);
+    if (busy || submissionLock.current) return;
+    submissionLock.current=true;setBusy(true);
     setError('');
     const form = event.currentTarget;
-    const data = new FormData(form);
+    const data = new FormData(form);if(String(data.get("website_url")||"").trim()){submissionLock.current=false;setBusy(false);return;}
     if (full) {
       const domain = String(data.get('email') || '').trim().toLowerCase().split('@')[1];
       if (!domain || personalDomains.has(domain)) {
         setError('Please use your business email address.');
-        setBusy(false);
+        submissionLock.current=false;setBusy(false);
         return;
       }
     }
@@ -31,28 +32,27 @@ export function LeadForm({ source = 'contact-page' }: { source?: string }) {
       const result = await response.json();
       if (!response.ok || !result.ok) {
         setError(result.message || 'Please check your details and try again.');
-        setBusy(false);
+        submissionLock.current=false;setBusy(false);
         return;
       }
       const payload = Object.fromEntries(data.entries());
       delete payload.website_url;
-      /* ACR captures the native submit event once. */
+      submitAcrLead(payload,source);
       router.push('/thank-you');
     } catch {
       setError('We could not send your request. Please try again.');
-      setBusy(false);
+      submissionLock.current=false;setBusy(false);
     }
   }
 
-  return <form className="lead-form" onSubmit={submit}>
+  return <form data-acr-lead-mode="manual" className="lead-form" onSubmit={submit}>
     {full ? <>
       <label>First Name <span aria-hidden="true">*</span><input name="first_name" autoComplete="given-name" required /></label>
       <label>Last Name <span aria-hidden="true">*</span><input name="last_name" autoComplete="family-name" required /></label>
       <label>Business Email <span aria-hidden="true">*</span><input name="email" type="email" autoComplete="email" required /></label>
       <label>Company Name <span aria-hidden="true">*</span><input name="company" autoComplete="organization" required /></label>
-      <p className="form-help form-wide">Use your company email. Personal email providers are not accepted.</p>
-      <label>Country code<select name="phone_country" defaultValue="+1" aria-label="Phone country code"><option value="+1">US/CA +1</option><option value="+44">UK +44</option><option value="+61">AU +61</option><option value="+63">PH +63</option><option value="other">Other</option></select></label>
-      <label>Phone Number<input name="phone" type="tel" autoComplete="tel-national" inputMode="tel" /></label>
+
+      <label>Phone Number<span className="sa-phone"><select name="phone_country" defaultValue="+1" aria-label="Phone country code"><option value="+1">US/CA +1</option><option value="+44">UK +44</option><option value="+61">AU +61</option><option value="+63">PH +63</option><option value="other">Other</option></select><input name="phone" type="tel" autoComplete="tel-national" inputMode="tel" /></span></label>
       <label>Website / URL<input name="company_website" type="url" autoComplete="url" placeholder="https://" /></label>
       <label>Company Size <span aria-hidden="true">*</span><select name="company_size" defaultValue="" required><option value="" disabled>Select company size</option><option>1 to 10</option><option>11 to 50</option><option>51 to 200</option><option>201 to 500</option><option>501+</option></select></label>
       <label>How Many Positions to Fill <span aria-hidden="true">*</span><select name="positions_to_fill" defaultValue="" required><option value="" disabled>Select positions</option><option>1</option><option>2 to 3</option><option>4 to 10</option><option>11+</option><option>Not sure yet</option></select></label>

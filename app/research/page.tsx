@@ -1,8 +1,4 @@
-import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import { researchPosts } from '@/lib/content';
-export const metadata:Metadata={title:'Research',description:'Source-led operational research for leaders designing specialist support roles.'};
-const words=(post:(typeof researchPosts)[number])=>post.sections?post.sections.reduce((n,s)=>n+s.paragraphs.join(' ').split(/\s+/).filter(Boolean).length,0):0;
-const readTime=(post:(typeof researchPosts)[number])=>`${Math.max(1,Math.round(words(post)/220))} min read`;
-export default function ResearchPage(){return <main className="editorial-index"><header className="editorial-hero research-hero"><Image src="/images/research-pipeline-analysis-hero.png" alt="Sales development analysts reviewing pipeline patterns and opportunity research" fill priority sizes="100vw"/><div className="editorial-hero-shade"/><div className="editorial-hero-copy"><p className="eyebrow">Research library</p><h1>Evidence for better operating decisions.</h1><p>Source-led briefs that turn public guidance and operational patterns into questions your team can use.</p></div></header><section className="content-wrap content-grid">{researchPosts.map((post,index)=>{const image=post.thumbnail||'/images/research-pipeline-analysis-hero.png';const alt=post.thumbnail?`Research illustration for ${post.title}`:'Sales development analysts reviewing pipeline patterns and opportunity research';return <Link className="content-card" href={`/research/${post.slug}`} key={`${post.slug}-${post.publishedAt}-${index}`}><Image className="card-thumb" src={image} width={1200} height={675} sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" alt={alt}/><div className="card-body"><span className="pill">{post.cluster}</span><h2>{post.title}</h2><p>{post.summary}</p><p className="meta">Published <time dateTime={post.publishedAt}>{post.publishedAt}</time> · {readTime(post)}</p><span className="text-link">Review the brief</span></div></Link>})}</section></main>}
+import type {Metadata} from 'next';
+import {LibraryExperience} from '../experience';
+export const metadata:Metadata={title:"Research",description:"Turn scattered market signals into a focused next conversation. Dedicated business development support for the research, account context, and follow-through behind your growth.",alternates:{canonical:"/research"}};
+export default function Page(){return <LibraryExperience kind="research"/>}
