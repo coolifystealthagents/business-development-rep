@@ -95,7 +95,7 @@ export const november17BlogPosts: BlogPost[] = [
     "slug": "businessdevelopmentrep-recording-a-prospect-research-note-with-source-links",
     "title": "Recording a prospect research note with source links",
     "description": "A bounded operational guide to prospect research note, with explicit evidence, decision rights, and a verified close.",
-    "category": "Prospect research",
+    "category": "Prospect intelligence",
     "publishedAt": "2026-11-17",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-17/businessdevelopmentrep-recording-a-prospect-research-note-with-source-links.png",
