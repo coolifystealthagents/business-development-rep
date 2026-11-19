@@ -4,7 +4,7 @@ export const november19BlogPosts: BlogPost[] = [
     "slug": "businessdevelopmentrep-set-a-pre-call-account-research-checklist-for-an-outbound-sequence",
     "title": "Set a pre-call account research checklist for an outbound sequence",
     "description": "A business development field guide to outbound account research checklist, with named owners, source evidence, and a dated handoff the sales team can audit.",
-    "category": "Account research",
+    "category": "Account planning",
     "publishedAt": "2026-11-19",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-19/businessdevelopmentrep-set-a-pre-call-account-research-checklist-for-an-outbound-sequence.png",
