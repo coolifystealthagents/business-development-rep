@@ -4,6 +4,7 @@ import { november12BlogPosts } from './november12BlogPosts';
 import { november21BlogPosts } from './november21BlogPosts';
 import { november22BlogPosts } from './november22BlogPosts';
 import { november23BlogPosts } from './november23BlogPosts';
+import { november24BlogPosts } from './november24BlogPosts';
 import { november20BlogPosts } from './november20BlogPosts';
 import { november19BlogPosts } from './november19BlogPosts';
 import { november18BlogPosts } from './november18BlogPosts';
@@ -14,6 +15,7 @@ import { november12ResearchPosts } from './november12ResearchPosts';
 import { november21ResearchPosts } from './november21ResearchPosts';
 import { november22ResearchPosts } from './november22ResearchPosts';
 import { november23ResearchPosts } from './november23ResearchPosts';
+import { november24ResearchPosts } from './november24ResearchPosts';
 import { november20ResearchPosts } from './november20ResearchPosts';
 import { november19ResearchPosts } from './november19ResearchPosts';
 import { november18ResearchPosts } from './november18ResearchPosts';
@@ -57,6 +59,7 @@ import { october25ResearchBatch } from './october25Research';
 export const blogPosts: BlogPost[] = [
   ...november12BlogPosts,
   ...november21BlogPosts,
+  ...november24BlogPosts,
   ...november23BlogPosts,
   ...november22BlogPosts,
   ...november19BlogPosts,
@@ -549,6 +552,7 @@ blogPosts.push(...october12BlogPosts);
 export const researchPosts: ResearchPost[] = [
   ...november12ResearchPosts,
   ...november21ResearchPosts,
+  ...november24ResearchPosts,
   ...november23ResearchPosts,
   ...november22ResearchPosts,
   ...november19ResearchPosts,
