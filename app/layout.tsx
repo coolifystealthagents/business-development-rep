@@ -5,6 +5,8 @@ import { site } from '@/lib/site';
 import './globals.css';
 import './experience.css';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} | Specialist remote staff`, template: `%s | ${site.name}` },

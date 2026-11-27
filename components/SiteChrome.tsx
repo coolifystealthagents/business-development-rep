@@ -22,7 +22,7 @@ export function Header() {
   }, [open]);
   return <>
     <a className="skip-link" href="#main-content">Skip to content</a>
-    <header className="site-header">
+    <header data-site-header="sticky" className="site-header">
       <Link className="brand" href="/" aria-label={`${site.name} home`}><Image src="/logo.svg" alt="" width={36} height={36} /><span>{site.name}</span></Link>
       <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen((value) => !value)}><span>{open ? 'Close' : 'Menu'}</span><i aria-hidden="true" /></button>
       <nav id="primary-navigation" aria-label="Primary navigation" data-open={open}>{headerNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link className="mobile-nav-cta" href="/contact-us">Book a free call <ArrowIcon /></Link></nav>
@@ -31,7 +31,7 @@ export function Header() {
   </>;
 }
 export function Footer() {
-  return <footer><div><Link className="brand inverse" href="/"><Image src="/logo.svg" alt="" width={44} height={44} /><span>{site.name}</span></Link><p>Specialist remote staff for {site.audience}.</p></div><div className="footer-links">{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div><p className="copyright">© {new Date().getFullYear()} {site.name}</p></footer>;
+  return <footer data-site-footer="true"><div><Link className="brand inverse" href="/"><Image src="/logo.svg" alt="" width={44} height={44} /><span>{site.name}</span></Link><p>Specialist remote staff for {site.audience}.</p></div><div className="footer-links">{nav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}<Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div><p className="copyright">© {new Date().getFullYear()} {site.name}</p></footer>;
 }
 export function TimedLeadModal() {
   const [open, setOpen] = useState(false);
